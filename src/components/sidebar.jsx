@@ -22,15 +22,12 @@ export default class Sidebar extends Component {
           <div class="text-center">
             <div
               class="author-img"
-              style={{ backgroundImage: "url(images/about.jpg)" }}
+              style={{ backgroundImage: "url(images/about.png)" }}
             ></div>
             <h1 id="colorlib-logo">
               <a href="index.html">Andrew Keymolen</a>
             </h1>
-            <span class="position">
-              <a href="#">Full Stack Dev </a>
-              in Belgium, Luxembourg, and soon in Australia
-            </span>
+            <span class="position">SCRUM Master and Full Stack Developer</span>
           </div>
           <nav id="colorlib-main-menu" role="navigation" class="navbar">
             <div id="navbar" class="collapse">
@@ -67,12 +64,12 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a href="#" data-nav-section="work">
-                    Work
+                    Achievements
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-nav-section="blog">
-                    Blog
+                  <a href="#" data-nav-section="photo">
+                    Photography
                   </a>
                 </li>
                 <li>
@@ -84,34 +81,44 @@ export default class Sidebar extends Component {
             </div>
           </nav>
 
+          <nav id="colorlib-main-menu">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/andrewkeymolen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-linkedin22" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/andrewkeymolen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-social-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.flickr.com/people/andrewkeymolen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-flickr2" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+
           <div class="colorlib-footer">
             <div>
               <p>
                 <small>© {new Date().getFullYear()} Andrew Keymolen</small>
               </p>
             </div>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="icon-facebook2"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="icon-twitter2"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="icon-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="icon-linkedin2"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </aside>
       </div>

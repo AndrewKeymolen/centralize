@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-export default class Blog extends Component {
+export default class Photo extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-blog" data-section="blog">
+        <section className="colorlib-blog" data-section="photo">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div

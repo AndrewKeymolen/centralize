@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import resume from "./../resources/Resume/Resume_Andrew_KEYMOLEN.pdf";
 
 export default class Home extends Component {
   render() {
@@ -18,10 +19,17 @@ export default class Home extends Component {
                             Hi! <br />
                             I'm Andrew.
                           </h1>
-                          <h2>I'm a Full Stack Dev.</h2>
+                          <h2>
+                            I'm originally a Full Stack Analyst Developer, but
+                            I'm on my way to become a Project Manager.
+                          </h2>
                           <p>
-                            <a class="btn btn-primary btn-learn">
-                              Download CV <i class="icon-download4"></i>
+                            <a
+                              class="btn btn-primary btn-learn"
+                              href={resume}
+                              download
+                            >
+                              Download my resume <i class="icon-download4"></i>
                             </a>
                           </p>
                         </div>
@@ -30,6 +38,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </li>
+              {/*
               <li style={{ backgroundImage: "url(images/img_bg_2.jpg)" }}>
                 <div class="overlay"></div>
                 <div class="container-fluid">
@@ -43,7 +52,11 @@ export default class Home extends Component {
                           </h1>
                           <h2>I'm many other things as well.</h2>
                           <p>
-                            <a class="btn btn-primary btn-learn">
+                            <a
+                              class="btn btn-primary btn-learn"
+                              href="#"
+                              data-nav-section="work"
+                            >
                               View Portfolio <i class="icon-briefcase3"></i>
                             </a>
                           </p>
@@ -53,6 +66,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </li>
+              */}
             </ul>
           </div>
         </section>
