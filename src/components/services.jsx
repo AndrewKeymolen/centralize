@@ -11,7 +11,7 @@ export default class Services extends Component {
                 class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span class="heading-meta">What I do?</span>
+                {/*<span class="heading-meta">What I do?</span>*/}
                 <h2 class="colorlib-heading">Here are some of my expertise</h2>
               </div>
             </div>
@@ -19,13 +19,14 @@ export default class Services extends Component {
               <div class="col-md-4 text-center animate-box">
                 <div class="services color-1">
                   <span class="icon">
-                    <i class="icon-bulb"></i>
+                    <i class="icon-data"></i>
                   </span>
                   <div class="desc">
-                    <h3>Innovative Ideas</h3>
+                    <h3>Full Stack Dev</h3>
                     <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics
+                      Analysing existing projects, developing new features,
+                      debugging, testing, production follow-up, incidents
+                      handling, etc. Thats what I do!
                     </p>
                   </div>
                 </div>
@@ -33,27 +34,14 @@ export default class Services extends Component {
               <div class="col-md-4 text-center animate-box">
                 <div class="services color-2">
                   <span class="icon">
-                    <i class="icon-data"></i>
+                    <i class="icon-bulb"></i>
                   </span>
                   <div class="desc">
-                    <h3>Software</h3>
+                    <h3>SCRUM Master</h3>
                     <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 text-center animate-box">
-                <div class="services color-3">
-                  <span class="icon">
-                    <i class="icon-phone3"></i>
-                  </span>
-                  <div class="desc">
-                    <h3>Application</h3>
-                    <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics
+                      I've managed small projects in the past. Now a certified
+                      SCRUM Master, I'm eager to take on the management of new
+                      exciting ones.
                     </p>
                   </div>
                 </div>
@@ -61,13 +49,29 @@ export default class Services extends Component {
               <div class="col-md-4 text-center animate-box">
                 <div class="services color-4">
                   <span class="icon">
-                    <i class="icon-layers2"></i>
+                    <i class="icon-globe-outline"></i>
                   </span>
                   <div class="desc">
-                    <h3>Graphic Design</h3>
+                    <h3>Web & Design</h3>
                     <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics
+                      A few personal projects involved web development and/or
+                      app design, which I eagerly learned about in order to
+                      obtain results I'd be satisfied with.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 text-center animate-box">
+                <div class="services color-3">
+                  <span class="icon">
+                    <i class="icon-study"></i>
+                  </span>
+                  <div class="desc">
+                    <h3>Coaching</h3>
+                    <p>
+                      Taking part in different communities at my company, I've
+                      organized workshops, taught Android dev and was asked to
+                      validate skills.
                     </p>
                   </div>
                 </div>
@@ -75,13 +79,14 @@ export default class Services extends Component {
               <div class="col-md-4 text-center animate-box">
                 <div class="services color-5">
                   <span class="icon">
-                    <i class="icon-data"></i>
+                    <i class="icon-camera-outline"></i>
                   </span>
                   <div class="desc">
-                    <h3>Software</h3>
+                    <h3>Multimedia</h3>
                     <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics
+                      Having a passion for photography, I taught myself image
+                      editing and, by extention, the basics of video editing.
+                      Those skills got useful more than once.
                     </p>
                   </div>
                 </div>
@@ -92,10 +97,11 @@ export default class Services extends Component {
                     <i class="icon-phone3"></i>
                   </span>
                   <div class="desc">
-                    <h3>Application</h3>
+                    <h3>Writing</h3>
                     <p>
-                      Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics
+                      Writing technical documentation and analyses has been a
+                      big part of my career so far, but I do also enjoy writing
+                      as a hobby.
                     </p>
                   </div>
                 </div>

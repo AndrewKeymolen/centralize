@@ -11,8 +11,8 @@ export default class Contact extends Component {
                 class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span class="heading-meta">Get in Touch</span>
-                <h2 class="colorlib-heading">Contact</h2>
+                {/*<span class="heading-meta">Get in Touch</span>*/}
+                <h2 class="colorlib-heading">Get in touch</h2>
               </div>
             </div>
             <div class="row">

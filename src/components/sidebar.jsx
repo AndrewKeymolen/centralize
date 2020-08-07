@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import githubIcon from "./../resources/Icons/GitHub.png";
 
 export default class Sidebar extends Component {
   render() {
@@ -27,7 +28,7 @@ export default class Sidebar extends Component {
             <h1 id="colorlib-logo">
               <a href="index.html">Andrew Keymolen</a>
             </h1>
-            <span class="position">SCRUM Master and Full Stack Developer</span>
+            <span class="position">SCRUM Master/Full Stack Dev</span>
           </div>
           <nav id="colorlib-main-menu" role="navigation" class="navbar">
             <div id="navbar" class="collapse">
@@ -98,7 +99,7 @@ export default class Sidebar extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="icon-social-github"></i>
+                  <img src={githubIcon} width="12" height="12" />
                 </a>
               </li>
               <li>

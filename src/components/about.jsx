@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
+        <section className="colorlib-about" data-section="about" id="about">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-12">
@@ -14,21 +14,64 @@ export default class About extends Component {
                 >
                   <div className="col-md-12">
                     <div className="about-desc">
-                      <span className="heading-meta">About Me</span>
+                      {/*<span className="heading-meta">About Me</span>*/}
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        <strong>Hi I'm Andrew Keymolen</strong> On her way she
-                        met a copy. The copy warned the Little Blind Text, that
-                        where it came from it would have been rewritten a
-                        thousand times and everything that was left from its
-                        origin would be the word "and" and the Little Blind Text
-                        should turn around and return to its own, safe country.
+                        Having grown up with a computer in the house, I got
+                        bitten by the IT bug very early on. At age 10, I was
+                        working on a first terrible website that would
+                        thankfully never see the light of day. At age 14,
+                        Windows didn't hold any more secret for me as I could
+                        fix any problem I probably was the cause of. At age 16,
+                        I discovered programming in Pascal and it kickstarted a
+                        passion that’s still very much alive today.
                       </p>
                       <p>
-                        Even the all-powerful Pointing has no control about the
-                        blind texts it is an almost unorthographic life One day
-                        however a small line of blind text by the name of Lorem
-                        Ipsum decided to leave for the far World of Grammar.
+                        Curiosity probably was the main reason behind my growing
+                        interest in IT but it’s also at the source of what's
+                        dearest to me as of today: exploring the world.
+                        Fortunately, IT can take me anywhere, which is perfect
+                        because I want to go everywhere.
+                      </p>
+                      <p>
+                        With that in mind, I decided to graduate in Business
+                        Computing, topping that off with a Student Exchange in
+                        Finland at the end of my final year of study. This first
+                        experience abroad didn’t just ignite a passion for
+                        photography, it also strengthened my ambitions.
+                      </p>
+                      <p>
+                        Back in Belgium, I decided a steady knowledge in modern
+                        technologies would help me with my international career
+                        so I chose to do an internship in Android development. I
+                        spent five months working on creating an Android app
+                        from scratch that would eventually receive an award for
+                        its quality. Strong of that experience, and with my
+                        degree in Business Computing in hands, I joined Adneom
+                        Luxembourg.
+                      </p>
+                      <p>
+                        Working in Luxembourg was a shy first step in terms of
+                        an international career for a Belgian but hopefully it
+                        would mean the beginning of a grander journey. And
+                        indeed, working at Adneom meant exactly that. Thanks to
+                        them, I started working with Spuerkeess as an IT
+                        consultant, working on everything from simple
+                        maintenance to high stake projects at a national scale.
+                      </p>
+                      <p>
+                        Those past years were rich in learning as I wrote
+                        thousands of lines of codes. I developed and published a
+                        first personal Android app before certifying as an
+                        Associate Android Developer and happily teaching it to
+                        whoever was interested. I gained strong knowledge in web
+                        development and in image and video editing. I also had
+                        my first experiences in project management which would
+                        eventually shift my career goals: now, I want to make
+                        good use of my technical skills and knowledge and start
+                        managing projects. In order to do so, I certified as a
+                        SCRUM Master and am now preparing for the next step in
+                        collaboration with The Positive Thinking Company.
                       </p>
                     </div>
                   </div>
@@ -40,20 +83,9 @@ export default class About extends Component {
                   >
                     <div class="services color-1">
                       <span class="icon2">
-                        <i class="icon-bulb"></i>
+                        <i class="icon-data"></i>
                       </span>
-                      <h3>Graphic Design</h3>
-                    </div>
-                  </div>
-                  <div
-                    class="col-md-3 animate-box"
-                    data-animate-effect="fadeInRight"
-                  >
-                    <div class="services color-2">
-                      <span class="icon2">
-                        <i class="icon-globe-outline"></i>
-                      </span>
-                      <h3>Web Design</h3>
+                      <h3>Full Stack Dev</h3>
                     </div>
                   </div>
                   <div
@@ -62,9 +94,20 @@ export default class About extends Component {
                   >
                     <div class="services color-3">
                       <span class="icon2">
-                        <i class="icon-data"></i>
+                        <i class="icon-bulb"></i>
                       </span>
-                      <h3>Software</h3>
+                      <h3>Project Management</h3>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-3 animate-box"
+                    data-animate-effect="fadeInRight"
+                  >
+                    <div class="services color-2">
+                      <span class="icon2">
+                        <i class="icon-phone3"></i>
+                      </span>
+                      <h3>Android Dev</h3>
                     </div>
                   </div>
                   <div
@@ -73,13 +116,13 @@ export default class About extends Component {
                   >
                     <div class="services color-4">
                       <span class="icon2">
-                        <i class="icon-phone3"></i>
+                        <i class="icon-globe-outline"></i>
                       </span>
-                      <h3>Application</h3>
+                      <h3>Web & Multimedia</h3>
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                {/*}                <div class="row">
                   <div
                     class="col-md-12 animate-box"
                     data-animate-effect="fadeInLeft"
@@ -95,6 +138,7 @@ export default class About extends Component {
                     </div>
                   </div>
                 </div>
+*/}{" "}
               </div>
             </div>
           </div>

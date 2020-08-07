@@ -11,8 +11,10 @@ export default class Education extends Component {
                 class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span class="heading-meta">Education</span>
-                <h2 class="colorlib-heading animate-box">Education</h2>
+                {/*<span class="heading-meta">Education</span>*/}
+                <h2 class="colorlib-heading animate-box">
+                  Education & Certifications
+                </h2>
               </div>
             </div>
             <div class="row">
@@ -37,7 +39,8 @@ export default class Education extends Component {
                             aria-expanded="true"
                             aria-controls="collapseOne"
                           >
-                            Master Degree Graphic Design
+                            Bachelor's degree in Business Computing, obtained
+                            with Great Distinction
                           </a>
                         </h4>
                       </div>
@@ -51,16 +54,26 @@ export default class Education extends Component {
                           <div class="row">
                             <div class="col-md-6">
                               <p>
-                                Far far away, behind the word mountains, far
-                                from the countries Vokalia and Consonantia,
-                                there live the blind texts.{" "}
+                                <b>
+                                  Haute École de Namur-Liège-Luxembourg, IESN,
+                                  Namur, BELGIUM – 2013-2016
+                                </b>
                               </p>
                             </div>
                             <div class="col-md-6">
                               <p>
-                                Separated they live in Bookmarksgrove right at
-                                the coast of the Semantics, a large language
-                                ocean.
+                                <li>
+                                  Thesis about the development of an Android
+                                  support app for field agents, written in
+                                  French and English
+                                </li>
+                              </p>
+                              <p>
+                                <li>
+                                  First semester spent at Vaasa’s University of
+                                  Applied Sciences in Finland as part of an
+                                  Erasmus exchange
+                                </li>
                               </p>
                             </div>
                           </div>
@@ -78,7 +91,7 @@ export default class Education extends Component {
                             aria-expanded="false"
                             aria-controls="collapseTwo"
                           >
-                            Bachelor Degree of Computer Science
+                            Scrum Master Certified (SMC)
                           </a>
                         </h4>
                       </div>
@@ -89,17 +102,28 @@ export default class Education extends Component {
                         aria-labelledby="headingTwo"
                       >
                         <div class="panel-body">
-                          <p>
-                            Far far away, behind the word{" "}
-                            <strong>mountains</strong>, far from the countries
-                            Vokalia and Consonantia, there live the blind texts.
-                            Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean.
-                          </p>
-                          <ul>
-                            <li>Separated they live in Bookmarksgrove right</li>
-                            <li>Separated they live in Bookmarksgrove right</li>
-                          </ul>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>
+                                <b>
+                                  SCRUMstudy - Accreditation Body for Scrum and
+                                  Agile, Online - May 2020
+                                </b>
+                              </p>
+                            </div>
+                            <div class="col-md-6">
+                              <p>
+                                <li>Credential ID: 778594</li>
+                              </p>
+                              <p>
+                                <li>
+                                  <a href="http://www.scrumstudy.com/scrum-master-certification.asp">
+                                    Credential URL
+                                  </a>
+                                </li>
+                              </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -114,7 +138,7 @@ export default class Education extends Component {
                             aria-expanded="false"
                             aria-controls="collapseThree"
                           >
-                            Diploma in Information Technology
+                            Scrum Fundamentals Certified (SFC)
                           </a>
                         </h4>
                       </div>
@@ -125,18 +149,77 @@ export default class Education extends Component {
                         aria-labelledby="headingThree"
                       >
                         <div class="panel-body">
-                          <p>
-                            Far far away, behind the word{" "}
-                            <strong>mountains</strong>, far from the countries
-                            Vokalia and Consonantia, there live the blind texts.
-                            Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean.
-                          </p>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>
+                                <b>
+                                  SCRUMstudy - Accreditation Body for Scrum and
+                                  Agile, Online - May 2020
+                                </b>
+                              </p>
+                            </div>
+                            <div class="col-md-6">
+                              <p>
+                                <li>Credential ID: 781827</li>
+                              </p>
+                              <p>
+                                <li>
+                                  <a href="https://www.scrumstudy.com/certification/scrum-fundamentals-certified">
+                                    Credential URL
+                                  </a>
+                                </li>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                          <a
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-parent="#accordion"
+                            href="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFour"
+                          >
+                            Associate Android Developer
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapseFour"
+                        class="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingFour"
+                      >
+                        <div class="panel-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>
+                                <b>Google Developers, Online - October 2017</b>
+                              </p>
+                            </div>
+                            <div class="col-md-6">
+                              <p>
+                                <li>Credential ID: 10930233</li>
+                              </p>
+                              <p>
+                                <li>
+                                  <a href="https://www.credential.net/245fbf31-3379-4e33-a7c2-22b1aa7d96e8">
+                                    Credential URL
+                                  </a>
+                                </li>
+                              </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="panel panel-default">
+                    {/*<div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingFour">
                         <h4 class="panel-title">
                           <a
@@ -200,7 +283,7 @@ export default class Education extends Component {
                           </p>
                         </div>
                       </div>
-                    </div>
+                    </div>*/}
                   </div>
                 </div>
               </div>
