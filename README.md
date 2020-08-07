@@ -4,13 +4,14 @@ Centralize is my personal website. I'll try to make it as complete as possible. 
 
 ## Installation
 
-Feel free to use the code
+Feel free to use the code, the main work was done in src\components
 
 ## Usage
 
 Visit [my webpage](https://andrewkeymolen.com/)
 
 ## Author
+
 <b>Andrew Keymolen</b>  
 Contact: andrewkeymolen@gmail.com
 Website: [andrewkeymolen.com](https://andrewkeymolen.com/)
@@ -25,4 +26,5 @@ Contributions, issues and feature requests are welcome!
 Give a ⭐ if this project helped you!
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
