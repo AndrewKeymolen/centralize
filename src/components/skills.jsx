@@ -149,7 +149,7 @@ export default class Skills extends Component {
                       aria-valuemax="100"
                       style={{ width: "75%" }}
                     >
-                      <span>75% - Personal</span>
+                      <span>75% - Studies & personal</span>
                     </div>
                   </div>
                 </div>

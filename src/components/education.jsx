@@ -55,8 +55,10 @@ export default class Education extends Component {
                             <div class="col-md-6">
                               <p>
                                 <b>
-                                  Haute École de Namur-Liège-Luxembourg, IESN,
-                                  Namur, BELGIUM – 2013-2016
+                                  <a href="https://www.henallux.be/">
+                                    Haute École de Namur-Liège-Luxembourg
+                                  </a>
+                                  , IESN, Namur, BELGIUM – 2013-2016
                                 </b>
                               </p>
                             </div>
@@ -70,9 +72,12 @@ export default class Education extends Component {
                               </p>
                               <p>
                                 <li>
-                                  First semester spent at Vaasa’s University of
-                                  Applied Sciences in Finland as part of an
-                                  Erasmus exchange
+                                  First semester spent at{" "}
+                                  <a href="https://www.vamk.fi/apply/">
+                                    {" "}
+                                    Vaasa’s University of Applied Sciences
+                                  </a>{" "}
+                                  in Finland as part of an Erasmus exchange
                                 </li>
                               </p>
                             </div>

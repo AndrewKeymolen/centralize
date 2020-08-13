@@ -26,7 +26,9 @@ export default class Contact extends Component {
                   </div>
                   <div class="colorlib-text">
                     <p>
-                      <a href="#">info@domain.com</a>
+                      <a href="mailto: andrewkeymolen@gmail.com">
+                        andrewkeymolen@gmail.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -39,7 +41,7 @@ export default class Contact extends Component {
                     <i class="icon-map"></i>
                   </div>
                   <div class="colorlib-text">
-                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <p>Available on demand</p>
                   </div>
                 </div>
 
@@ -51,9 +53,7 @@ export default class Contact extends Component {
                     <i class="icon-phone"></i>
                   </div>
                   <div class="colorlib-text">
-                    <p>
-                      <a href="tel://">+123 456 7890</a>
-                    </p>
+                    <p>Available on demand</p>
                   </div>
                 </div>
               </div>
@@ -63,12 +63,25 @@ export default class Contact extends Component {
                     class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
                     data-animate-effect="fadeInRight"
                   >
-                    <form action="">
+                    <script language="JavaScript">
+                      var frmvalidator = new Validator("contact_form");
+                      frmvalidator.addValidation("Name","req","Please provide
+                      your name");
+                      frmvalidator.addValidation("Email","req","Please provide
+                      your email"); frmvalidator.addValidation("Email","Email",
+                      "Please enter a valid email address");{" "}
+                    </script>
+                    <form
+                      method="post"
+                      name="contact_form"
+                      action="contact-form-handler.php"
+                    >
                       <div class="form-group">
                         <input
                           type="text"
                           class="form-control"
                           placeholder="Name"
+                          name="Name"
                         />
                       </div>
                       <div class="form-group">
@@ -76,6 +89,7 @@ export default class Contact extends Component {
                           type="text"
                           class="form-control"
                           placeholder="Email"
+                          name="Email"
                         />
                       </div>
                       <div class="form-group">
@@ -83,6 +97,7 @@ export default class Contact extends Component {
                           type="text"
                           class="form-control"
                           placeholder="Subject"
+                          name="Subject"
                         />
                       </div>
                       <div class="form-group">
@@ -93,6 +108,7 @@ export default class Contact extends Component {
                           rows="7"
                           class="form-control"
                           placeholder="Message"
+                          name="Message"
                         ></textarea>
                       </div>
                       <div class="form-group">
