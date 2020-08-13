@@ -73,6 +73,16 @@ export default class About extends Component {
                         SCRUM Master and am now preparing for the next step in
                         collaboration with The Positive Thinking Company.
                       </p>
+                      <p>
+                        So what do you say, do you want to be part of that next
+                        step? Then{" "}
+                        <span id="navbar">
+                          <a href="" data-nav-section="contact">
+                            contact me
+                          </a>
+                        </span>
+                        !
+                      </p>
                     </div>
                   </div>
                 </div>

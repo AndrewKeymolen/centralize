@@ -51,9 +51,15 @@ export default class Home extends Component {
                           </h1>
                           <h2>Please, go ahead!</h2>
                           <p>
-                            <a class="btn btn-primary btn-learn" href="#about">
-                              About <i class="icon-download4"></i>
-                            </a>
+                            <div id="navbar">
+                              <a
+                                class="btn btn-primary btn-learn"
+                                href=""
+                                data-nav-section="about"
+                              >
+                                About <i class="icon-download4"></i>
+                              </a>
+                            </div>
                           </p>
                         </div>
                       </div>

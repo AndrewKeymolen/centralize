@@ -147,7 +147,7 @@ export default class Experience extends Component {
                           an international career for a Belgian but thanks to
                           ADNEOM, a consulting company, I acquired many useful
                           skills and I started working with Spuerkeess as an
-                          Analyst Developer, participation in everything from
+                          Analyst Developer, participating in everything from
                           simple maintenance to high stake projects at a
                           national scale. <br /> I am now preparing for the next
                           step thanks to them and in collaboration with The
