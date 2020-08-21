@@ -56,7 +56,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div class="progress-wrap">
                   <h3>Java (+ Android)</h3>
@@ -76,7 +76,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInLeft"
               >
                 <div class="progress-wrap">
                   <h3>COBOL</h3>
@@ -96,7 +96,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div class="progress-wrap">
                   <h3>Xamarin/C</h3>
@@ -116,7 +116,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInLeft"
               >
                 <div class="progress-wrap">
                   <h3>HTML/CSS</h3>
@@ -136,7 +136,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div class="progress-wrap">
                   <h3>JavaScript (Node.js, React)</h3>
@@ -144,19 +144,19 @@ export default class Skills extends Component {
                     <div
                       class="progress-bar color-6"
                       role="progressbar"
-                      aria-valuenow="75"
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "75%" }}
+                      style={{ width: "80%" }}
                     >
-                      <span>75% - Studies & personal</span>
+                      <span>80% - Studies & personal</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInLeft"
               >
                 <div class="progress-wrap">
                   <h3>SQL DB2, SQLite, MySQL</h3>
@@ -213,7 +213,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div class="progress-wrap">
                   <h3>Android Studio</h3>
@@ -273,7 +273,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInLeft"
               >
                 <div class="progress-wrap">
                   <h3>Putty/WinSCP</h3>
@@ -293,7 +293,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div class="progress-wrap">
                   <h3>Git (GitHub & Sourcetree)</h3>
@@ -353,7 +353,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInLeft"
               >
                 <div class="progress-wrap">
                   <h3>Adobe Photoshop</h3>
@@ -431,7 +431,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div class="progress-wrap">
                   <h3>English</h3>
@@ -451,7 +451,7 @@ export default class Skills extends Component {
               </div>
               <div
                 class="col-md-6 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInLeft"
               >
                 <div class="progress-wrap">
                   <h3>Dutch</h3>

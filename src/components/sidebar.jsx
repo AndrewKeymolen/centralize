@@ -78,49 +78,47 @@ export default class Sidebar extends Component {
                     Contact
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/andrewkeymolen/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="icon-linkedin22" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/andrewkeymolen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={githubIcon} width="12" height="12" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.flickr.com/people/andrewkeymolen/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="icon-flickr2" />
+                  </a>
+                </li>
+                <li>
+                  <div class="colorlib-footer">
+                    <div>
+                      <p>
+                        <small>
+                          © {new Date().getFullYear()} Andrew Keymolen
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </nav>
-
-          <nav id="colorlib-main-menu">
-            <ul>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/andrewkeymolen/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="icon-linkedin22" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/andrewkeymolen"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={githubIcon} width="12" height="12" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.flickr.com/people/andrewkeymolen/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="icon-flickr2" />
-                </a>
-              </li>
-            </ul>
-          </nav>
-
-          <div class="colorlib-footer">
-            <div>
-              <p>
-                <small>© {new Date().getFullYear()} Andrew Keymolen</small>
-              </p>
-            </div>
-          </div>
         </aside>
       </div>
     );

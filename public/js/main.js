@@ -29,12 +29,10 @@
   };
 
   var fullHeight = function () {
-    if (!isMobile.any()) {
+    $(".js-fullheight").css("height", $(window).height());
+    $(window).resize(function () {
       $(".js-fullheight").css("height", $(window).height());
-      $(window).resize(function () {
-        $(".js-fullheight").css("height", $(window).height());
-      });
-    }
+    });
   };
 
   var counter = function () {
@@ -121,13 +119,6 @@
           $("body").removeClass("offcanvas");
           $(".js-colorlib-nav-toggle").removeClass("active");
         }
-      }
-    });
-
-    $(window).scroll(function () {
-      if ($("body").hasClass("offcanvas")) {
-        $("body").removeClass("offcanvas");
-        $(".js-colorlib-nav-toggle").removeClass("active");
       }
     });
   };

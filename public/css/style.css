@@ -97,6 +97,7 @@ figure figcaption {
   width: 100%;
   overflow: hidden;
   position: relative;
+  background: #f2f3f7;
 }
 
 #colorlib-aside {
@@ -107,7 +108,7 @@ figure figcaption {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #ebebeb;
+  background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -282,6 +283,7 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  background: white;
 }
 @media screen and (max-width: 768px) {
   #colorlib-main {
