@@ -37,7 +37,6 @@ export default class Education extends Component {
                         <h4 class="panel-title">
                           <a
                             data-toggle="collapse"
-                            data-parent="#accordion"
                             href="#collapseOne"
                             aria-expanded="true"
                             aria-controls="collapseOne"
@@ -105,7 +104,6 @@ export default class Education extends Component {
                           <a
                             class="collapsed"
                             data-toggle="collapse"
-                            data-parent="#accordion"
                             href="#collapseTwo"
                             aria-expanded="false"
                             aria-controls="collapseTwo"
@@ -152,7 +150,6 @@ export default class Education extends Component {
                           <a
                             class="collapsed"
                             data-toggle="collapse"
-                            data-parent="#accordion"
                             href="#collapseThree"
                             aria-expanded="false"
                             aria-controls="collapseThree"
@@ -199,7 +196,6 @@ export default class Education extends Component {
                           <a
                             class="collapsed"
                             data-toggle="collapse"
-                            data-parent="#accordion"
                             href="#collapseFour"
                             aria-expanded="false"
                             aria-controls="collapseFour"
