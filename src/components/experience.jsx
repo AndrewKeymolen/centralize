@@ -1,6 +1,38 @@
 import React, { Component } from "react";
 
 export default class Experience extends Component {
+  showmore() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = " Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = " Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  showmore2() {
+    var dots = document.getElementById("dots2");
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("myBtn2");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = " Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = " Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
   render() {
     return (
       <div>
@@ -53,71 +85,80 @@ export default class Experience extends Component {
                           (e.g., various bank accounts, various debit and credit
                           cards, share accounts, life insurances, etc.),
                           everyday money transfer, some customer relationship
-                          management, and many other things. After a couple of
-                          months of familiarization through production
-                          follow-up, development of new features of various
-                          sizes and incident management, I was also asked to do
-                          similar interventions on Spuerkeess’ dedicated
-                          customer relationship management tool, their risk
-                          management tool and their money transfer management
-                          tool.
-                          <br />
-                          <br />
-                          Those tasks became omnipresent and a daily
-                          responsibility as I started working on a first higher
-                          stake project involving four developers: the upgrade
-                          of Spuerkeess’ risk management tool’s front end so it
-                          would become compliant with Basel III, a new
-                          regulatory framework. That project being a success, it
-                          was followed with another one focusing on the
-                          onboarding of new customers on site and on the
-                          marketing of existing products to existing customers.
-                          At the core of that project was a tablet app
-                          consisting of a form customers would fill in before
-                          being suggested some banking products according to
-                          their answers. The project, involving six developers
-                          and three main users, was managed with the SCRUM
-                          methodology and I took the responsibilities of an
-                          unofficial SCRUM Master for the front-end development
-                          team. This became my first experience in project
-                          management and resulted in the successful deployment
-                          of exciting new software and a new customer
-                          acquisition method.
-                          <br />
-                          <br />
-                          Since February 2020, I’ve been working on an even
-                          higher stake project: allowing potential customers to
-                          start their onboarding from the bank’s mobile app as
-                          well as to be able to create basic products like bank
-                          accounts and debit and credit cards following the
-                          onboarding. The ongoing development is going well
-                          despite the COVID-19 crisis, and we’re aiming to
-                          deploy the project to production in September 2020.
-                          <br />
-                          <br />
-                          <b>
-                            ✔ Development in VB.Net with Visual Studio for the
-                            front end, and in COBOL with a 3270 emulator for the
-                            back end <br />✔ Needs assessment, writing of
-                            technical and functional documentation in French,
-                            incident management, production follow-up,
-                            development of new features on existing software and
-                            development of new software and projects <br />✔ Use
-                            of the MVC design pattern
-                            <br />✔ Focus on maintainability, improvability and
-                            testing
-                            <br />✔ Use of expertise to recommend functional and
-                            technical enhancements <br />✔ Retail (e-banking,
-                            mobile banking, bank accounts, credit/debit cards,
-                            everyday money transfers) <br />✔ Experience as
-                            SCRUM master
-                            <br />✔ DB2 database and use of SQL DB2 for data
-                            querying
-                            <br />✔ Azure DevOps for code management and
-                            implementation of the SCRUM methodology
-                            <br />✔ Use of many tools (logs management,
-                            deployment management, etc.) internal to the bank
-                          </b>
+                          management, and many other<span id="dots">...</span>
+                          <span id="more">
+                            {" "}
+                            things. After a couple of months of familiarization
+                            through production follow-up, development of new
+                            features of various sizes and incident management, I
+                            was also asked to do similar interventions on
+                            Spuerkeess’ dedicated customer relationship
+                            management tool, their risk management tool and
+                            their money transfer management tool.
+                            <br />
+                            <br />
+                            Those tasks became omnipresent and a daily
+                            responsibility as I started working on a first
+                            higher stake project involving four developers: the
+                            upgrade of Spuerkeess’ risk management tool’s front
+                            end so it would become compliant with Basel III, a
+                            new regulatory framework. That project being a
+                            success, it was followed with another one focusing
+                            on the onboarding of new customers on site and on
+                            the marketing of existing products to existing
+                            customers. At the core of that project was a tablet
+                            app consisting of a form customers would fill in
+                            before being suggested some banking products
+                            according to their answers. The project, involving
+                            six developers and three main users, was managed
+                            with the SCRUM methodology and I took the
+                            responsibilities of an unofficial SCRUM Master for
+                            the front-end development team. This became my first
+                            experience in project management and resulted in the
+                            successful deployment of exciting new software and a
+                            new customer acquisition method.
+                            <br />
+                            <br />
+                            Since February 2020, I’ve been working on an even
+                            higher stake project: allowing potential customers
+                            to start their onboarding from the bank’s mobile app
+                            as well as to be able to create basic products like
+                            bank accounts and debit and credit cards following
+                            the onboarding. The ongoing development is going
+                            well despite the COVID-19 crisis, and we’re aiming
+                            to deploy the project to production in September
+                            2020.
+                            <br />
+                            <br />
+                            <b>
+                              ✔ Development in VB.Net with Visual Studio for the
+                              front end, and in COBOL with a 3270 emulator for
+                              the back end <br />✔ Needs assessment, writing of
+                              technical and functional documentation in French,
+                              incident management, production follow-up,
+                              development of new features on existing software
+                              and development of new software and projects{" "}
+                              <br />✔ Use of the MVC design pattern
+                              <br />✔ Focus on maintainability, improvability
+                              and testing
+                              <br />✔ Use of expertise to recommend functional
+                              and technical enhancements <br />✔ Retail
+                              (e-banking, mobile banking, bank accounts,
+                              credit/debit cards, everyday money transfers){" "}
+                              <br />✔ Experience as SCRUM master
+                              <br />✔ DB2 database and use of SQL DB2 for data
+                              querying
+                              <br />✔ Azure DevOps for code management and
+                              implementation of the SCRUM methodology
+                              <br />✔ Use of many tools (logs management,
+                              deployment management, etc.) internal to the bank
+                              <br />
+                            </b>
+                          </span>
+                          <a onClick={this.showmore.bind(this)} id="myBtn">
+                            {" "}
+                            Read more
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -196,31 +237,40 @@ export default class Experience extends Component {
                           as well as the media files, on Ethias’ servers. The
                           employee could then send the reports to anyone by mail
                           - to the customer for example - or simply review them
-                          later from any device.
-                          <br />
-                          <br />
-                          The development was a success; the app went to
-                          production, was used by Ethias employees and
-                          eventually got an award.
-                          <br />
-                          <br />
-                          <b>
-                            ✔ Development in Java for Android (including some
-                            XML for the UI) with Android Studio
-                            <br />✔ Writing of a functional and technical
-                            analysis and of the documentation in English and
-                            French, included in my thesis
-                            <br />✔ Use of the latest Android technologies at
-                            the time, i.e., Google’s Data Binding Library,
-                            facilitating the implementation of the MVVM design
-                            pattern
-                            <br />✔ Focus on maintainability and unit testing
-                            <br />✔ Respect of Google's guidelines on Material
-                            Design regarding the UI
-                            <br />✔ Use of expertise to recommend functional and
-                            technical enhancements
-                            <br />✔ Sourcetree for code management
-                          </b>
+                          later from <span id="dots2">...</span>
+                          <span id="more2">
+                            {" "}
+                            any device.
+                            <br />
+                            <br />
+                            The development was a success; the app went to
+                            production, was used by Ethias employees and
+                            eventually got an award.
+                            <br />
+                            <br />
+                            <b>
+                              ✔ Development in Java for Android (including some
+                              XML for the UI) with Android Studio
+                              <br />✔ Writing of a functional and technical
+                              analysis and of the documentation in English and
+                              French, included in my thesis
+                              <br />✔ Use of the latest Android technologies at
+                              the time, i.e., Google’s Data Binding Library,
+                              facilitating the implementation of the MVVM design
+                              pattern
+                              <br />✔ Focus on maintainability and unit testing
+                              <br />✔ Respect of Google's guidelines on Material
+                              Design regarding the UI
+                              <br />✔ Use of expertise to recommend functional
+                              and technical enhancements
+                              <br />✔ Sourcetree for code management
+                              <br />
+                            </b>
+                          </span>
+                          <a onClick={this.showmore2.bind(this)} id="myBtn2">
+                            {" "}
+                            Read more
+                          </a>
                         </p>
                       </div>
                     </div>

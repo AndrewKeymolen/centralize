@@ -69,9 +69,11 @@ if ($_POST){
     http_response_code(200);
     $subject = 'Contact from: ' . $_POST['name'] . ': '  . $_POST['subject'];
     $from = $_POST['email'];
+    $name2 = $_POST['name'];
+    $subjectCopy = $_POST['subject'];
     $message = $_POST['message'];
     //Actual sending email
-    $sendEmail = new Sender($adminEmail, $from, $subject, $message);
+    $sendEmail = new Sender($adminEmail, $from, $subject, $message, $subjectCopy, $name2);
     if ($sendEmail->send()){
       echo json_encode(
         [

@@ -174,6 +174,26 @@ export default class Skills extends Component {
                   </div>
                 </div>
               </div>
+              <div
+                class="col-md-6 animate-box"
+                data-animate-effect="fadeInRight"
+              >
+                <div class="progress-wrap">
+                  <h3>PHP</h3>
+                  <div class="progress">
+                    <div
+                      class="progress-bar color-2"
+                      role="progressbar"
+                      aria-valuenow="40"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "40%" }}
+                    >
+                      <span>40% - Personal</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="row">
               <div

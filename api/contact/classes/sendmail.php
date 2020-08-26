@@ -7,17 +7,23 @@ class Sender
 {
     public $sendTo;
     public $sendFrom;
+    public $email;
+    public $email_subject;
+    public $email_message;
+    public $email_headers;
     public $subject;
     public $message;
     public $headers;
     public $error = [];
 
-    public function __construct($sendTo, $sendFrom = null, $subject, $message)
+    public function __construct($sendTo, $sendFrom = null, $subject, $message, $subjectCopy, $name)
     {
         $this->sendTo = $sendTo;
-        $this->sendFrom = ($sendFrom) ? $sendFrom : 'andrewkeymolen@gmail.com';
+        $this->sendFrom = ($sendFrom) ? $sendFrom : 'keymolenandrew@gmail.com';
         $this->subject = $subject;
         $this->message = $message;
+		$this->name = $name;
+		$this->subjectCopy = $subjectCopy;
     }
 
     public function setTo($email, $name) {
@@ -63,6 +69,8 @@ class Sender
     }
 
     public function send() {
+		
+		//Mail to admin
         $to = $this->sendTo;
         $from = $this->sendFrom;
         $subject = $this->subject;
@@ -72,5 +80,23 @@ class Sender
             'Reply-To: '.$this->getFrom() . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
         mail($to, $subject, $message, $headers);
+		
+		//Copy to sender
+		$email = $this->sendFrom;
+		$name = $this->name;
+		$subjectCopy = $this->subjectCopy; 
+		$email_subject = "Submission was successful";
+		$email_message = "\nThank you for contacting me, I'll reply to you asap!\n\n\n";
+		$email_message .= "Here's what you sent me:\n\n";
+		$email_message .= "- Name: ".$name."\n\n";
+		$email_message .= "- Email: ".$email."\n\n";
+		$email_message .= "- Subject: ".$subjectCopy."\n\n";
+		$email_message .= "- Message: \n\n".$message."\n\n";
+		// create email headers
+		$email_headers = 'From: '.$to."\r\n".
+			'Reply-To: '.$to."\r\n" .
+			"MIME-Version: 1.0\r\n" .
+			"Content-Type: text/plain; charset=iso-8859-1\r\n";
+		mail($email, $email_subject, $email_message, $email_headers);
     }
 }

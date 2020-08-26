@@ -277,6 +277,18 @@ figure figcaption {
   margin: 0 auto;
 }
 
+#more {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;

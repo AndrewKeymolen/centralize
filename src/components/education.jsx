@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import french from "./../resources/TFE/FR_TFE_Andrew_Keymolen_3IG_2015_2016.pdf";
+import english from "./../resources/TFE/EN_TFE_Andrew_Keymolen_3IG_2015_2016.pdf";
+import defense from "./../resources/TFE/Project_presentation_Andrew_Keymolen.pdf";
 
 export default class Education extends Component {
   render() {
@@ -66,8 +69,19 @@ export default class Education extends Component {
                               <p>
                                 <li>
                                   Thesis about the development of an Android
-                                  support app for field agents, written in
-                                  French and English
+                                  support app for field agents, written in both{" "}
+                                  <a href={french} download>
+                                    French <i class="icon-download4"></i>
+                                  </a>{" "}
+                                  and{" "}
+                                  <a href={english} download>
+                                    English <i class="icon-download4"></i>
+                                  </a>
+                                  , and{" "}
+                                  <a href={defense} download>
+                                    defended in English{" "}
+                                    <i class="icon-download4"></i>
+                                  </a>
                                 </li>
                               </p>
                               <p>
