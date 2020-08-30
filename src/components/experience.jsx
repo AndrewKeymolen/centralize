@@ -237,7 +237,7 @@ export default class Experience extends Component {
                           as well as the media files, on Ethias’ servers. The
                           employee could then send the reports to anyone by mail
                           - to the customer for example - or simply review them
-                          later from <span id="dots2">...</span>
+                          later from<span id="dots2">...</span>
                           <span id="more2">
                             {" "}
                             any device.

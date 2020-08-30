@@ -57,7 +57,7 @@ export default class Home extends Component {
                                 href=""
                                 data-nav-section="about"
                               >
-                                About <i class="icon-download4"></i>
+                                About
                               </a>
                             </div>
                           </p>
