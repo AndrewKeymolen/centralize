@@ -1204,8 +1204,17 @@ body.offcanvas .colorlib-nav-toggle {
   color: #2c98f0;
 }
 
-div.photoperso {
-  padding: 8px;
+.grid-sizer,
+.grid-item {
+  width: 25%;
+  float: left;
+  padding: 2px;
+}
+
+.grid {
+  max-height: 480px;
+  overflow: auto;
+  border-bottom: 1px solid #e6e6e6 !important;
 }
 
 .project {

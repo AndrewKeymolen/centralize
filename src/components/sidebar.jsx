@@ -7,7 +7,7 @@ export default class Sidebar extends Component {
       <div>
         <nav
           href="#"
-          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          className="js-colorlib-nav-toggle colorlib-nav-toggle"
           data-toggle="collapse"
           data-target="#navbar"
           aria-expanded="false"
@@ -18,22 +18,22 @@ export default class Sidebar extends Component {
         <aside
           id="colorlib-aside"
           role="complementary"
-          class="border js-fullheight"
+          className="border js-fullheight"
         >
-          <div class="text-center">
+          <div className="text-center">
             <div
-              class="author-img"
+              className="author-img"
               style={{ backgroundImage: "url(images/about.png)" }}
             ></div>
             <h1 id="colorlib-logo">
               <a href="index.html">Andrew Keymolen</a>
             </h1>
-            <span class="position">SCRUM Master/Full Stack Dev</span>
+            <span className="position">SCRUM Master/Full Stack Dev</span>
           </div>
-          <nav id="colorlib-main-menu" role="navigation" class="navbar">
-            <div id="navbar" class="collapse">
+          <nav id="colorlib-main-menu" role="navigation" className="navbar">
+            <div id="navbar" className="collapse">
               <ul>
-                <li class="active">
+                <li className="active">
                   <a href="#" data-nav-section="home">
                     Home
                   </a>
@@ -106,7 +106,7 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li>
-                  <div class="colorlib-footer">
+                  <div className="colorlib-footer">
                     <div>
                       <p>
                         <small>

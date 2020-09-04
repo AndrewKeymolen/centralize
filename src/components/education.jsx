@@ -7,34 +7,34 @@ export default class Education extends Component {
   render() {
     return (
       <div>
-        <section class="colorlib-education" data-section="education">
-          <div class="colorlib-narrow-content">
-            <div class="row">
+        <section className="colorlib-education" data-section="education">
+          <div className="colorlib-narrow-content">
+            <div className="row">
               <div
-                class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                {/*<span class="heading-meta">Education</span>*/}
-                <h2 class="colorlib-heading animate-box">
+                {/*<span className="heading-meta">Education</span>*/}
+                <h2 className="colorlib-heading animate-box">
                   Education & Certifications
                 </h2>
               </div>
             </div>
-            <div class="row">
+            <div className="row">
               <div
-                class="col-md-12 animate-box"
+                className="col-md-12 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div class="fancy-collapse-panel">
+                <div className="fancy-collapse-panel">
                   <div
-                    class="panel-group"
+                    className="panel-group"
                     id="accordion"
                     role="tablist"
                     aria-multiselectable="true"
                   >
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
+                    <div className="panel panel-default">
+                      <div className="panel-heading" role="tab" id="headingOne">
+                        <h4 className="panel-title">
                           <a
                             data-toggle="collapse"
                             href="#collapseOne"
@@ -48,13 +48,13 @@ export default class Education extends Component {
                       </div>
                       <div
                         id="collapseOne"
-                        class="panel-collapse collapse in"
+                        className="panel-collapse collapse in"
                         role="tabpanel"
                         aria-labelledby="headingOne"
                       >
-                        <div class="panel-body">
-                          <div class="row">
-                            <div class="col-md-6">
+                        <div className="panel-body">
+                          <div className="row">
+                            <div className="col-md-6">
                               <p>
                                 <b>
                                   <a href="https://www.henallux.be/">
@@ -64,22 +64,22 @@ export default class Education extends Component {
                                 </b>
                               </p>
                             </div>
-                            <div class="col-md-6">
+                            <div className="col-md-6">
                               <p>
                                 <li>
                                   Thesis about the development of an Android
                                   support app for field agents, written in both{" "}
                                   <a href={french} download>
-                                    French <i class="icon-download4"></i>
+                                    French <i className="icon-download4"></i>
                                   </a>{" "}
                                   and{" "}
                                   <a href={english} download>
-                                    English <i class="icon-download4"></i>
+                                    English <i className="icon-download4"></i>
                                   </a>
                                   , and{" "}
                                   <a href={defense} download>
                                     defended in English{" "}
-                                    <i class="icon-download4"></i>
+                                    <i className="icon-download4"></i>
                                   </a>
                                 </li>
                               </p>
@@ -98,11 +98,11 @@ export default class Education extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingTwo">
-                        <h4 class="panel-title">
+                    <div className="panel panel-default">
+                      <div className="panel-heading" role="tab" id="headingTwo">
+                        <h4 className="panel-title">
                           <a
-                            class="collapsed"
+                            className="collapsed"
                             data-toggle="collapse"
                             href="#collapseTwo"
                             aria-expanded="false"
@@ -114,13 +114,13 @@ export default class Education extends Component {
                       </div>
                       <div
                         id="collapseTwo"
-                        class="panel-collapse collapse"
+                        className="panel-collapse collapse"
                         role="tabpanel"
                         aria-labelledby="headingTwo"
                       >
-                        <div class="panel-body">
-                          <div class="row">
-                            <div class="col-md-6">
+                        <div className="panel-body">
+                          <div className="row">
+                            <div className="col-md-6">
                               <p>
                                 <b>
                                   SCRUMstudy - Accreditation Body for Scrum and
@@ -128,7 +128,7 @@ export default class Education extends Component {
                                 </b>
                               </p>
                             </div>
-                            <div class="col-md-6">
+                            <div className="col-md-6">
                               <p>
                                 <li>Credential ID: 778594</li>
                               </p>
@@ -144,11 +144,15 @@ export default class Education extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
+                    <div className="panel panel-default">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        id="headingThree"
+                      >
+                        <h4 className="panel-title">
                           <a
-                            class="collapsed"
+                            className="collapsed"
                             data-toggle="collapse"
                             href="#collapseThree"
                             aria-expanded="false"
@@ -160,13 +164,13 @@ export default class Education extends Component {
                       </div>
                       <div
                         id="collapseThree"
-                        class="panel-collapse collapse"
+                        className="panel-collapse collapse"
                         role="tabpanel"
                         aria-labelledby="headingThree"
                       >
-                        <div class="panel-body">
-                          <div class="row">
-                            <div class="col-md-6">
+                        <div className="panel-body">
+                          <div className="row">
+                            <div className="col-md-6">
                               <p>
                                 <b>
                                   SCRUMstudy - Accreditation Body for Scrum and
@@ -174,7 +178,7 @@ export default class Education extends Component {
                                 </b>
                               </p>
                             </div>
-                            <div class="col-md-6">
+                            <div className="col-md-6">
                               <p>
                                 <li>Credential ID: 781827</li>
                               </p>
@@ -190,11 +194,15 @@ export default class Education extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingFour">
-                        <h4 class="panel-title">
+                    <div className="panel panel-default">
+                      <div
+                        className="panel-heading"
+                        role="tab"
+                        id="headingFour"
+                      >
+                        <h4 className="panel-title">
                           <a
-                            class="collapsed"
+                            className="collapsed"
                             data-toggle="collapse"
                             href="#collapseFour"
                             aria-expanded="false"
@@ -206,18 +214,18 @@ export default class Education extends Component {
                       </div>
                       <div
                         id="collapseFour"
-                        class="panel-collapse collapse"
+                        className="panel-collapse collapse"
                         role="tabpanel"
                         aria-labelledby="headingFour"
                       >
-                        <div class="panel-body">
-                          <div class="row">
-                            <div class="col-md-6">
+                        <div className="panel-body">
+                          <div className="row">
+                            <div className="col-md-6">
                               <p>
                                 <b>Google Developers, Online - October 2017</b>
                               </p>
                             </div>
-                            <div class="col-md-6">
+                            <div className="col-md-6">
                               <p>
                                 <li>Credential ID: 10930233</li>
                               </p>
@@ -234,11 +242,11 @@ export default class Education extends Component {
                       </div>
                     </div>
 
-                    {/*<div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingFour">
-                        <h4 class="panel-title">
+                    {/*<div className="panel panel-default">
+                      <div className="panel-heading" role="tab" id="headingFour">
+                        <h4 className="panel-title">
                           <a
-                            class="collapsed"
+                            className="collapsed"
                             data-toggle="collapse"
                             data-parent="#accordion"
                             href="#collapseFour"
@@ -251,11 +259,11 @@ export default class Education extends Component {
                       </div>
                       <div
                         id="collapseFour"
-                        class="panel-collapse collapse"
+                        className="panel-collapse collapse"
                         role="tabpanel"
                         aria-labelledby="headingFour"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <p>
                             Far far away, behind the word{" "}
                             <strong>mountains</strong>, far from the countries
@@ -267,11 +275,11 @@ export default class Education extends Component {
                       </div>
                     </div>
 
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingFive">
-                        <h4 class="panel-title">
+                    <div className="panel panel-default">
+                      <div className="panel-heading" role="tab" id="headingFive">
+                        <h4 className="panel-title">
                           <a
-                            class="collapsed"
+                            className="collapsed"
                             data-toggle="collapse"
                             data-parent="#accordion"
                             href="#collapseFive"
@@ -284,11 +292,11 @@ export default class Education extends Component {
                       </div>
                       <div
                         id="collapseFive"
-                        class="panel-collapse collapse"
+                        className="panel-collapse collapse"
                         role="tabpanel"
                         aria-labelledby="headingFive"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <p>
                             Far far away, behind the word{" "}
                             <strong>mountains</strong>, far from the countries

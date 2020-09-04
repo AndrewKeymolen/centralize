@@ -1,0 +1,57 @@
+.horizontal-scrollable-tabs {
+  min-height: 50px;
+}
+
+.horizontal-scrollable-tabs .arrow-right {
+  float: right;
+}
+.horizontal-scrollable-tabs .arrow-left {
+  float: left;
+}
+/* Customize your arrows here */
+.horizontal-scrollable-tabs .scroller {
+  font-size: 18px;
+  color: red;
+  padding: 10px 10px;
+  display: none;
+}
+.horizontal-scrollable-tabs .scroller.disabled {
+  color: gray;
+}
+.horizontal-scrollable-tabs .horizontal-tabs .nav-tabs-horizontal {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+/* It's good to add a min-width so that the items have the same width */
+.horizontal-scrollable-tabs .horizontal-tabs .nav-tabs-horizontal > li {
+  float: none;
+  min-width: 50px;
+  text-align: center;
+}
+
+/*Scrollbar always visible on mobile*/
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #ffffff;
+}

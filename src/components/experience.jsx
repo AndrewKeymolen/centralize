@@ -36,33 +36,35 @@ export default class Experience extends Component {
   render() {
     return (
       <div>
-        <section class="colorlib-experience" data-section="experience">
-          <div class="colorlib-narrow-content">
-            <div class="row">
+        <section className="colorlib-experience" data-section="experience">
+          <div className="colorlib-narrow-content">
+            <div className="row">
               <div
-                class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                {/*<span class="heading-meta">Experience</span>*/}
-                <h2 class="colorlib-heading animate-box">Work Experience</h2>
+                {/*<span className="heading-meta">Experience</span>*/}
+                <h2 className="colorlib-heading animate-box">
+                  Work Experience
+                </h2>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
+            <div className="row">
+              <div className="col-md-12">
                 <div
-                  class="timeline-centered animate-box"
+                  className="timeline-centered animate-box"
                   data-animate-effect="fadeInLeft"
                 >
                   <article
-                    class="timeline-entry animate-box"
+                    className="timeline-entry animate-box"
                     data-animate-effect="fadeInLeft"
                   >
-                    <div class="timeline-entry-inner">
-                      <div class="timeline-icon color-1">
-                        <i class="icon-pen2"></i>
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2"></i>
                       </div>
 
-                      <div class="timeline-label">
+                      <div className="timeline-label">
                         <h2>
                           Analyst Developer at{" "}
                           <a
@@ -165,14 +167,14 @@ export default class Experience extends Component {
                   </article>
 
                   <article
-                    class="timeline-entry animate-box"
+                    className="timeline-entry animate-box"
                     data-animate-effect="fadeInRight"
                   >
-                    <div class="timeline-entry-inner">
-                      <div class="timeline-icon color-2">
-                        <i class="icon-pen2"></i>
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2"></i>
                       </div>
-                      <div class="timeline-label">
+                      <div className="timeline-label">
                         <h2>
                           IT Consultant at{" "}
                           <a
@@ -199,14 +201,14 @@ export default class Experience extends Component {
                   </article>
 
                   <article
-                    class="timeline-entry animate-box"
+                    className="timeline-entry animate-box"
                     data-animate-effect="fadeInLeft"
                   >
-                    <div class="timeline-entry-inner">
-                      <div class="timeline-icon color-3">
-                        <i class="icon-pen2"></i>
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pen2"></i>
                       </div>
-                      <div class="timeline-label">
+                      <div className="timeline-label">
                         <h2>
                           Android App Developer at{" "}
                           <a
@@ -277,11 +279,11 @@ export default class Experience extends Component {
                   </article>
 
                   <article
-                    class="timeline-entry begin animate-box"
+                    className="timeline-entry begin animate-box"
                     data-animate-effect="fadeInBottom"
                   >
-                    <div class="timeline-entry-inner">
-                      <div class="timeline-icon color-none"></div>
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-none"></div>
                     </div>
                   </article>
                 </div>

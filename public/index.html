@@ -54,6 +54,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Ekko Lightbox  -->
     <link rel="stylesheet" href="css/ekko-lightbox.css" />
+    <!-- Scrollable tabs  -->
+    <link rel="stylesheet" href="css/bootstrap-nav-tab-scrollable.css" />
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -83,6 +85,28 @@
     <script src="js/jquery.countTo.js"></script>
     <!-- Ekko Lightbox  -->
     <script src="js/ekko-lightbox.min.js"></script>
+    <!-- Scrollable tabs  -->
+    <script src="js/bootstrap-nav-tab-scrollable.js"></script>
+    <!-- Masonry grid layout  -->
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        var $grid = $(".grid").imagesLoaded(function () {
+          $grid.masonry({
+            itemSelector: ".grid-item",
+            columnWidth: ".grid-sizer",
+          });
+          $grid.masonry("reloadItems");
+          $grid.masonry("layout");
+        });
+      });
+    </script>
+
+    <script>
+      $(window).resize(function () {});
+    </script>
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
