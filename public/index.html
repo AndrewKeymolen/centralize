@@ -92,6 +92,7 @@
     <script src="js/imagesloaded.pkgd.js"></script>
 
     <script>
+    //Initialisation photo galleres
       $(document).ready(function () {
         var $grid = $(".grid").imagesLoaded(function () {
           $grid.masonry({
@@ -105,7 +106,16 @@
     </script>
 
     <script>
-      $(window).resize(function () {});
+    //Load new gallery when new tab selected
+      $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
+        var updateMasonry = function(){
+          $('.grid').masonry("reloadItems");
+          $('.grid').masonry("layout");
+        };
+
+        updateMasonry();
+
+      });
     </script>
 
     <!-- MAIN JS -->
