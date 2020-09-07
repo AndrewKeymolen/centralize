@@ -277,6 +277,7 @@ export default class Photo extends Component {
                 <h2 className="colorlib-heading">Photography</h2>
               </div>
             </div>
+            <p>I've been into photography for many years now. I started with a Nikon APS-C and eventually switched to an Olympus Micro Four Thirds mirrorless, shooting mainly with prime lenses. All of my published work can be found on my <a href="https://www.flickr.com/people/andrewkeymolen/">Flickr page</a>. However, you can find a selection of my best work right here or on my <a href="https://andrewkeymolenphotography.com/">dedicated webpage</a>.</p>
             <div id="js_image_selection" className="horizontal-scrollable-tabs">
               <div className="horizontal-tabs">
                 <ul className="nav nav-tabs nav-tabs-horizontal">
@@ -351,7 +352,7 @@ export default class Photo extends Component {
                     </a>
                   </li>
                   <li>
-                    <a data-toggle="tab" href="#other" className="inverted">
+                    <a data-toggle="tab" href="#other01" className="inverted">
                       <b>OTHER</b>
                     </a>
                   </li>
@@ -360,7 +361,7 @@ export default class Photo extends Component {
             </div>
 
             <div className="tab-content">
-              <div id="portrait" className="tab-pane fade in active">
+              <div id="portrait" className="tabphoto tab-pane fade in active">
                 <div className="row grid ">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -762,7 +763,7 @@ export default class Photo extends Component {
                   </div>
                 </div>
               </div>
-              <div id="landscape" className="tab-pane fade">
+              <div id="landscape" className="tabphoto tab-pane fade">
                 <div className="row grid ">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -832,7 +833,7 @@ export default class Photo extends Component {
                   <div className="col-md-4 photoperso grid-item" data-animate-effect="fadeInLeft " > <a href={photography263} data-toggle="lightbox" data-gallery="landscape-gallery" > <img src={photography263} className="img-responsive" /> </a> </div>
                 </div>
               </div>
-              <div id="urban" className="tab-pane fade">
+              <div id="urban" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -885,7 +886,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="street" className="tab-pane fade">
+              <div id="street" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -912,7 +913,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="animal" className="tab-pane fade">
+              <div id="animal" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -955,7 +956,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="texture" className="tab-pane fade">
+              <div id="texture" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -975,7 +976,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="lifeless" className="tab-pane fade">
+              <div id="lifeless" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1005,7 +1006,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="architecture" className="tab-pane fade">
+              <div id="architecture" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1043,7 +1044,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="art" className="tab-pane fade">
+              <div id="art" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1062,7 +1063,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="mystic" className="tab-pane fade">
+              <div id="mystic" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1094,7 +1095,7 @@ export default class Photo extends Component {
 
                 </div>
               </div>
-              <div id="iceland" className="tab-pane fade">
+              <div id="iceland" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1143,7 +1144,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="chernobyl" className="tab-pane fade">
+              <div id="chernobyl" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1165,7 +1166,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="abyss1" className="tab-pane fade">
+              <div id="abyss1" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1189,7 +1190,7 @@ export default class Photo extends Component {
                 </div>
 
               </div>
-              <div id="abyss2" className="tab-pane fade">
+              <div id="abyss2" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>
@@ -1206,7 +1207,7 @@ export default class Photo extends Component {
                     <div class="col-md-4 photoperso grid-item" data-animate-effect="fadeInLeft " > <a href={photography250} data-toggle="lightbox" data-gallery="abyss01-gallery" > <img src={photography250} className="img-responsive" /> </a> </div>
                 </div>
               </div>
-              <div id="other" className="tab-pane fade">
+              <div id="other01" className="tabphoto tab-pane fade">
                 <div className="row grid">
                   <div className="grid-sizer"></div>
                   <div className="gutter-sizer"></div>

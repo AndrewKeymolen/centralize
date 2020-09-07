@@ -1211,6 +1211,11 @@ body.offcanvas .colorlib-nav-toggle {
   padding: 2px;
 }
 
+.tabphoto {
+  padding-top: 4px;
+      padding-bottom: 4px;
+}
+
 .grid {
   max-height: 480px;
   overflow: auto;
