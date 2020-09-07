@@ -1,6 +1,6 @@
 # Centralize
 
-Centralize is my personal website. I'll try to make it as complete as possible. I used an existing HTML theme that I converted to React and heavily modified. Some PHP was involved for the contact form but it's mainly a lot of Javascript that was added
+Centralize is my personal website. I'll try to make it as complete as possible.  I used an existing Bootstrap-ready HTML theme that I converted to React and heavily modified. Some PHP was involved for the contact form but the main work was in JavaScript & HTML/CSS.
 
 ## Installation
 
