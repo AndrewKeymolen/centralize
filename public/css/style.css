@@ -1125,13 +1125,9 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100%;
   float: left;
   background: #fff;
-  margin-bottom: 3em;
+  background-color: #f2f3f7;
 }
-@media screen and (max-width: 768px) {
-  .blog-entry {
-    margin-bottom: 3em;
-  }
-}
+
 .blog-entry .blog-img {
   width: 100%;
   float: left;
@@ -1211,15 +1207,58 @@ body.offcanvas .colorlib-nav-toggle {
   padding: 2px;
 }
 
+@media screen and (max-width: 960px){
+  .grid-sizer,
+  .grid-item {
+    width: 33%;
+    float: left;
+    padding: 2px;
+  }
+}
+
 .tabphoto {
   padding-top: 4px;
-      padding-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+.tabphoto2 {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .grid {
-  max-height: 480px;
+  max-height: 650px;
   overflow: auto;
   border-bottom: 1px solid #e6e6e6 !important;
+}
+
+@media screen and (max-width: 960px){
+  .grid2 {
+  max-height: 650px;
+  overflow: auto;
+  border-bottom: 1px solid #e6e6e6 !important;
+}
+}
+
+.grid-sizer2,
+.grid-item2 {
+  width: 33%;
+  float: left;
+  padding: 8px;
+}
+
+@media screen and (max-width: 960px){
+  .grid-sizer2,
+  .grid-item2 {
+    width: 100%;
+    padding: 8px;
+    float: left;
+  }
+}
+
+.blog-text {
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .project {

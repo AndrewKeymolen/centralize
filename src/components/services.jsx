@@ -96,7 +96,7 @@ export default class Services extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-6">
                   <span className="icon">
-                    <i className="icon-phone3"></i>
+                    <i className="icon-pen2"></i>
                   </span>
                   <div className="desc">
                     <h3>Writing</h3>

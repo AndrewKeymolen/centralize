@@ -102,6 +102,15 @@
           $grid.masonry("reloadItems");
           $grid.masonry("layout");
         });
+
+        var $grid2 = $(".grid2").imagesLoaded(function () {
+          $grid2.masonry({
+            itemSelector: ".grid-item2",
+            columnWidth: ".grid-sizer2",
+          });
+          $grid2.masonry("reloadItems");
+          $grid2.masonry("layout");
+        });
       });
     </script>
 
@@ -111,6 +120,8 @@
         var updateMasonry = function(){
           $('.grid').masonry("reloadItems");
           $('.grid').masonry("layout");
+          $('.grid2').masonry("reloadItems");
+          $('.grid2').masonry("layout");
         };
 
         updateMasonry();
