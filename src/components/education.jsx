@@ -70,16 +70,15 @@ export default class Education extends Component {
                                   Thesis about the development of an Android
                                   support app for field agents, written in both{" "}
                                   <a href={french} download>
-                                    French <i className="icon-download4"></i>
+                                    French&nbsp;<i className="icon-download4"></i>
                                   </a>{" "}
                                   and{" "}
                                   <a href={english} download>
-                                    English <i className="icon-download4"></i>
+                                    English&nbsp;<i className="icon-download4"></i>
                                   </a>
                                   , and{" "}
                                   <a href={defense} download>
-                                    defended in English{" "}
-                                    <i className="icon-download4"></i>
+                                    defended in English&nbsp;<i className="icon-download4"></i>
                                   </a>
                                 </li>
                               </p>

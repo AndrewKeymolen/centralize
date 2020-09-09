@@ -33,8 +33,7 @@ export default class Home extends Component {
                               href={resume}
                               download
                             >
-                              Download my resume{" "}
-                              <i className="icon-download4"></i>
+                              Download my resume&nbsp;<i className="icon-download4"></i>
                             </a>
                           </p>
                         </div>

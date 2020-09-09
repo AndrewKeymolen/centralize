@@ -78,8 +78,10 @@ export default class Experience extends Component {
                         <p>
                           I was hired by Spuerkeess, a private and public bank,
                           as an IT consultant to join the ± 24-person team in
-                          charge of the various retail-related software. I
-                          started working on Siroco, the software used for the
+                          charge of the various retail-relatedsoftware. I
+                          started working on Siroco, the software used for<span id="dots">...</span>
+                          <span id="more">
+                            {" "}  the
                           onboarding of customers and the handling of their
                           personal information (contact information, job,
                           relationships with other customers, other legally
@@ -87,9 +89,7 @@ export default class Experience extends Component {
                           (e.g., various bank accounts, various debit and credit
                           cards, share accounts, life insurances, etc.),
                           everyday money transfer, some customer relationship
-                          management, and many other<span id="dots">...</span>
-                          <span id="more">
-                            {" "}
+                          management, and many other
                             things. After a couple of months of familiarization
                             through production follow-up, development of new
                             features of various sizes and incident management, I
@@ -130,6 +130,11 @@ export default class Experience extends Component {
                             well despite the COVID-19 crisis, and we’re aiming
                             to deploy the project to production in September
                             2020.
+
+                          </span><a onClick={this.showmore.bind(this)} id="myBtn">
+                            {" "}
+                            Read more
+                          </a>
                             <br />
                             <br />
                             <b>
@@ -156,11 +161,7 @@ export default class Experience extends Component {
                               deployment management, etc.) internal to the bank
                               <br />
                             </b>
-                          </span>
-                          <a onClick={this.showmore.bind(this)} id="myBtn">
-                            {" "}
-                            Read more
-                          </a>
+
                         </p>
                       </div>
                     </div>
@@ -168,7 +169,7 @@ export default class Experience extends Component {
 
                   <article
                     className="timeline-entry animate-box"
-                    data-animate-effect="fadeInRight"
+                    data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
@@ -226,7 +227,9 @@ export default class Experience extends Component {
                           <a href="https://www.ethias.be/pgInt.go?pg=ECIF747&q_lg=1">
                             Ethias Prévention
                           </a>
-                          .” That app, an order from the insurance company
+                          .” That app, an order from<span id="dots2">...</span>
+                          <span id="more2">
+                            {" "} the insurance company
                           Ethias, was aimed at their field officers.
                           <br />
                           <br />
@@ -239,15 +242,17 @@ export default class Experience extends Component {
                           as well as the media files, on Ethias’ servers. The
                           employee could then send the reports to anyone by mail
                           - to the customer for example - or simply review them
-                          later from<span id="dots2">...</span>
-                          <span id="more2">
-                            {" "}
+                          later from
                             any device.
                             <br />
                             <br />
                             The development was a success; the app went to
                             production, was used by Ethias employees and
                             eventually got an award.
+                          </span><a onClick={this.showmore2.bind(this)} id="myBtn2">
+                            {" "}
+                            Read more
+                          </a>
                             <br />
                             <br />
                             <b>
@@ -268,11 +273,7 @@ export default class Experience extends Component {
                               <br />✔ Sourcetree for code management
                               <br />
                             </b>
-                          </span>
-                          <a onClick={this.showmore2.bind(this)} id="myBtn2">
-                            {" "}
-                            Read more
-                          </a>
+
                         </p>
                       </div>
                     </div>

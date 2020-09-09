@@ -277,8 +277,13 @@ export default class Photo extends Component {
                 <h2 className="colorlib-heading">Photography</h2>
               </div>
             </div>
-            <p>I've been into photography for many years now. I started with a Nikon APS-C and eventually switched to an Olympus Micro Four Thirds mirrorless, shooting mainly with prime lenses. All of my published work can be found on my <a href="https://www.flickr.com/people/andrewkeymolen/">Flickr page</a>. However, you can find a selection of my best work right here or on my <a href="https://andrewkeymolenphotography.com/">dedicated webpage</a>.</p>
-            <div id="js_image_selection" className="horizontal-scrollable-tabs">
+            <p className="animate-box"
+            data-animate-effect="fadeInRight">I've been into photography for many years now. I started with a Nikon APS-C and eventually switched to an Olympus Micro Four Thirds mirrorless, shooting mainly with prime lenses. All of my published work can be found on my <a href="https://www.flickr.com/people/andrewkeymolen/">Flickr page</a>. However, you can find a selection of my best work right here or on my <a href="https://andrewkeymolenphotography.com/">dedicated webpage</a>.</p>
+            <div
+              className="animate-box"
+              data-animate-effect="fadeInBottom"
+            >
+          <div id="js_image_selection" className="horizontal-scrollable-tabs">
               <div className="horizontal-tabs">
                 <ul className="nav nav-tabs nav-tabs-horizontal">
                   <li className="active">
@@ -1228,6 +1233,7 @@ export default class Photo extends Component {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </section>
       </div>
