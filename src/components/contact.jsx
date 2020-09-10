@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const API_PATH = "http://localhost:3000/centralize/src/index.php";
+const API_PATH = "https://centralize-contact-form.herokuapp.com/";
 
 export default class Contact extends Component {
   constructor(props) {
@@ -14,7 +14,7 @@ export default class Contact extends Component {
       mailSent: false,
       error: "",
       fatalError: false,
-    }; 
+    };
   }
 
   onNameChange(event) {
@@ -37,7 +37,7 @@ export default class Contact extends Component {
     e.preventDefault();
     axios({
       method: "post",
-      url: "http://localhost/contact/index.php",
+      url: API_PATH,
       headers: { "content-type": "application/json" },
       data: this.state,
     })

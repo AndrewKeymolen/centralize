@@ -34,7 +34,7 @@ export default class Work extends Component {
             <p className="animate-box" data-animate-effect="fadeInRight">I've worked on many projects in the last few years and here are a few of them. They're only personal achievements since I explain everything about the projects I've been involved with professionally in the{" "}
               <span id="navbar">
                 <a
-                  href=""  
+                  href=""
                   data-nav-section="experience"
                   >
                   Work Experience
@@ -89,8 +89,9 @@ export default class Work extends Component {
                                   <a href="">This very website, aka Centralize</a>
                                 </h3>
                                 <p>
-                                  I'm always busy doing something, usually photography or programming related. It was high time I centralize everything, learning some new skils doing so. I used an existing Bootstrap-ready HTML theme that I converted to React and heavily modified. Some PHP was involved for the contact form but the main work was in JavaScript & HTML/CSS.
+                                  I'm always busy doing something, usually photography or programming related. It was high time I centralize everything, learning some new skils doing so. I used an existing Bootstrap-ready HTML theme that I converted to React and heavily modified. Some <a href="https://github.com/AndrewKeymolen/Centralize-Contact-Form">PHP</a> was involved for the contact form but the main work was in JavaScript & HTML/CSS.
                                   <br/><br/>
+
                                   <a href="https://github.com/AndrewKeymolen/Centralize"><i className="icon-social-github-circular"></i> &nbsp;GitHub</a>
                                 </p>
                               </div>
