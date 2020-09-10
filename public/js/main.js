@@ -93,7 +93,7 @@
       },
       { offset: "85%" }
     );
-  };
+  }; 
 
   var burgerMenu = function () {
     $(".js-colorlib-nav-toggle").on("click", function (event) {
@@ -133,7 +133,7 @@
   var clickMenu = function () {
     $('#navbar a:not([class="external"])').click(function (event) {
       var section = $(this).data("nav-section"),
-        navbar = $("#navbar");
+      navbar = $("#navbar");
 
       if ($('[data-section="' + section + '"]').length) {
         $("html, body").animate(
@@ -161,9 +161,9 @@
     $el.find("li").removeClass("active");
     $el.each(function () {
       $(this)
-        .find('a[data-nav-section="' + section + '"]')
-        .closest("li")
-        .addClass("active");
+      .find('a[data-nav-section="' + section + '"]')
+      .closest("li")
+      .addClass("active");
     });
   };
 
@@ -204,16 +204,16 @@
         setTimeout(function () {
           $(".slider-text").removeClass("animated fadeInUp");
           $(".flex-active-slide")
-            .find(".slider-text")
-            .addClass("animated fadeInUp");
+          .find(".slider-text")
+          .addClass("animated fadeInUp");
         }, 500);
       },
       before: function () {
         setTimeout(function () {
           $(".slider-text").removeClass("animated fadeInUp");
           $(".flex-active-slide")
-            .find(".slider-text")
-            .addClass("animated fadeInUp");
+          .find(".slider-text")
+          .addClass("animated fadeInUp");
         }, 500);
       },
     });

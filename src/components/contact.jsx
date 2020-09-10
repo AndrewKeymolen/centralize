@@ -14,7 +14,7 @@ export default class Contact extends Component {
       mailSent: false,
       error: "",
       fatalError: false,
-    };
+    }; 
   }
 
   onNameChange(event) {
@@ -41,19 +41,19 @@ export default class Contact extends Component {
       headers: { "content-type": "application/json" },
       data: this.state,
     })
-      .then((result) => {
-        this.setState({ mailSent: result.data.sent });
-        this.setState({ error: result.data.message });
-        this.setState({ fatalError: result.data.fatalError });
-        if (result.data.sent) {
-          this.resetForm();
-        }
-      })
-      .catch((error) => {
-        this.setState({ mailSent: false });
-        this.setState({ error: error.message });
-        this.setState({ Fatalerror: true });
-      });
+    .then((result) => {
+      this.setState({ mailSent: result.data.sent });
+      this.setState({ error: result.data.message });
+      this.setState({ fatalError: result.data.fatalError });
+      if (result.data.sent) {
+        this.resetForm();
+      }
+    })
+    .catch((error) => {
+      this.setState({ mailSent: false });
+      this.setState({ error: error.message });
+      this.setState({ Fatalerror: true });
+    });
   }
 
   resetForm() {
@@ -76,7 +76,7 @@ export default class Contact extends Component {
               <div
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
-              >
+                >
                 {/*<span className="heading-meta">Get in Touch</span>*/}
                 <h2 className="colorlib-heading">Get in touch</h2>
               </div>
@@ -86,7 +86,7 @@ export default class Contact extends Component {
                 <div
                   className="colorlib-feature colorlib-feature-sm animate-box"
                   data-animate-effect="fadeInLeft"
-                >
+                  >
                   <div className="colorlib-icon">
                     <i className="icon-globe-outline"></i>
                   </div>
@@ -102,7 +102,7 @@ export default class Contact extends Component {
                 <div
                   className="colorlib-feature colorlib-feature-sm animate-box"
                   data-animate-effect="fadeInLeft"
-                >
+                  >
                   <div className="colorlib-icon">
                     <i className="icon-map"></i>
                   </div>
@@ -114,7 +114,7 @@ export default class Contact extends Component {
                 <div
                   className="colorlib-feature colorlib-feature-sm animate-box"
                   data-animate-effect="fadeInLeft"
-                >
+                  >
                   <div className="colorlib-icon">
                     <i className="icon-phone"></i>
                   </div>
@@ -128,12 +128,12 @@ export default class Contact extends Component {
                   <div
                     className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
                     data-animate-effect="fadeInRight"
-                  >
+                    >
                     <form
                       id="contact-form"
                       onSubmit={this.handleSubmit.bind(this)}
                       method="POST"
-                    >
+                      >
                       <div className="form-group">
                         <input
                           type="text"
@@ -143,7 +143,7 @@ export default class Contact extends Component {
                           id="name"
                           value={this.state.name}
                           onChange={this.onNameChange.bind(this)}
-                        />
+                          />
                       </div>
                       <div className="form-group">
                         <input
@@ -155,7 +155,7 @@ export default class Contact extends Component {
                           aria-describedby="emailHelp"
                           value={this.state.email}
                           onChange={this.onEmailChange.bind(this)}
-                        />
+                          />
                       </div>
                       <div className="form-group">
                         <input
@@ -166,7 +166,7 @@ export default class Contact extends Component {
                           id="subject"
                           value={this.state.subject}
                           onChange={this.onSubjectChange.bind(this)}
-                        />
+                          />
                       </div>
                       <div className="form-group">
                         <textarea
@@ -179,7 +179,7 @@ export default class Contact extends Component {
                           id="message"
                           value={this.state.message}
                           onChange={this.onMessageChange.bind(this)}
-                        ></textarea>
+                          ></textarea>
                       </div>
                       <div className="form-group">
                         <input
@@ -187,7 +187,7 @@ export default class Contact extends Component {
                           className="btn btn-primary btn-send-message"
                           value="Send Message"
                           onClick={(e) => this.handleSubmit(e)}
-                        />
+                          />
                         <div>
                           {this.state.mailSent && (
                             <div className="success">
@@ -203,7 +203,7 @@ export default class Contact extends Component {
                             <div
                               className="FatalError"
                               style={{ color: "red" }}
-                            >
+                              >
                               Please, try sending an email directly at{" "}
                               <a href="mailto: andrewkeymolen@gmail.com">
                                 andrewkeymolen@gmail.com

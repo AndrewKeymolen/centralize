@@ -10,12 +10,12 @@ export default class Services extends Component {
               <div
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
-              >
+                >
                 {/*<span className="heading-meta">What I do?</span>*/}
                 <h2 className="colorlib-heading">
                   Here are some of my expertise
                 </h2>
-              </div>
+              </div> 
             </div>
             <div className="row row-pt-md">
               <div className="col-md-4 text-center animate-box">

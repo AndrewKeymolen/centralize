@@ -12,19 +12,19 @@ export default class Sidebar extends Component {
           data-target="#navbar"
           aria-expanded="false"
           aria-controls="navbar"
-        >
+          >
           <i />
         </nav>
         <aside
           id="colorlib-aside"
           role="complementary"
           className="border js-fullheight"
-        >
+          >
           <div className="text-center">
-            <div
+            <div 
               className="author-img"
               style={{ backgroundImage: "url(images/about.png)" }}
-            ></div>
+              ></div>
             <h1 id="colorlib-logo">
               <a href="index.html">Andrew Keymolen</a>
             </h1>
@@ -83,7 +83,7 @@ export default class Sidebar extends Component {
                     href="https://www.linkedin.com/in/andrewkeymolen/"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
+                    >
                     <i className="icon-linkedin22" />
                   </a>
                 </li>
@@ -92,7 +92,7 @@ export default class Sidebar extends Component {
                     href="https://github.com/andrewkeymolen"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
+                    >
                     <img src={githubIcon} width="12" height="12" />
                   </a>
                 </li>
@@ -101,7 +101,7 @@ export default class Sidebar extends Component {
                     href="https://www.flickr.com/people/andrewkeymolen/"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
+                    >
                     <i className="icon-flickr2" />
                   </a>
                 </li>
