@@ -21,7 +21,7 @@
     "react-scroll-section": "^2.1.0"
   },
   "scripts": {
-    "start": "serve -s build"
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
