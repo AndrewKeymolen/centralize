@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AndrewKeymolenPhotography from "./../resources/Projects/AndrewKeymolenPhotography.png";
 import TheEmeraldIsle from "./../resources/Projects/TheEmeraldIsle.jpg";
 import BugMaster from "./../resources/Projects/BugMaster.png";
-import CentralizeProject from "./../resources/Projects/CentralizeProject.png";
+import CentralizeProject from "./../resources/Projects/CentralizeProject.jpg";
 import EverydayManga from "./../resources/Projects/EverydayManga.png";
 import LovelyDay from "./../resources/Projects/LovelyDay.png";
 import Photobook from "./../resources/Projects/Photobook.png";
