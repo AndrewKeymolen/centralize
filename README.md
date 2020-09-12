@@ -4,7 +4,7 @@ Centralize is my personal website. I'll try to make it as complete as possible. 
 
 ## Installation
 
-A lot of components are absent from the repo on purpose. Therefore you should pick what you need for reference, this repo isn't a ready to run one
+The resources are absent from the repo on purpose. Therefore you should pick what you need for reference, this repo isn't a ready to run one (Although it would be easy to replace the resources with your own)
 
 The main work on the front end was done in src/components
 
