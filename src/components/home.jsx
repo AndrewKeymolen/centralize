@@ -3,7 +3,7 @@ import resume from "./../resources/Resume/Resume_Andrew_KEYMOLEN.pdf";
 
 export default class Home extends Component {
   render() {
-    return (
+    return ( 
       <div>
         <section
           id="colorlib-hero"
