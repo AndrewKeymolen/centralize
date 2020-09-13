@@ -56,7 +56,7 @@ export default class About extends Component {
                         would mean the beginning of a grander journey. And
                         indeed, working at Adneom meant exactly that. Thanks to
                         them, I started working with Spuerkeess as an IT
-                        consultant, participatinh in everything from simple
+                        consultant, participating in everything from simple
                         maintenance to high stake projects at a national scale.
                       </p>
                       <p>
