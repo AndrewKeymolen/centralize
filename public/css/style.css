@@ -1006,7 +1006,7 @@ span {
 }
 .progress-bar span {
   position: absolute;
-  top: -22px;
+  top: 10px;
   right: 0;
 }
 .progress-bar.color-1 {
