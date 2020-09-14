@@ -8,7 +8,7 @@ The resources are absent from the repo on purpose. Therefore you should pick wha
 
 The main work on the front end was done in src/components
 
-The backend (in PHP, for the contact form) is in api/contact
+The backend (in PHP, for the contact form) is in [another repo](https://github.com/AndrewKeymolen/Centralize-Contact-Form)
 
 ## Usage
 
