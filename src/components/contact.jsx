@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const API_PATH = "https://centralize-contact-form-node.vercel.app/api";
+const API_PATH = "http://centralize-contact-form-php.herokuapp.com/api/";
 
 export default class Contact extends Component {
   constructor(props) {
