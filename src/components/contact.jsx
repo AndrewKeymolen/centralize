@@ -191,7 +191,7 @@ export default class Contact extends Component {
                         <div>
                           {this.state.mailSent && (
                             <div className="success">
-                              Your message has been sent successfully! You should also have received a copy. Please check your SPAMS folder if you can't find it.
+                              Your message has been sent successfully! You should also have received a copy. Please check your SPAM folder if you can't find it.
                             </div>
                           )}
                           {this.state.error && !this.state.mailSent && (
