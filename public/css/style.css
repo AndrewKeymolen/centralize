@@ -1714,6 +1714,11 @@ span {
   box-shadow: none;
 }
 
+.btn:disabled {
+  background-color: #cccccc;
+  color: #cccccc;
+}
+
 .form-control {
   -webkit-appearance: none;
   -moz-appearance: none;

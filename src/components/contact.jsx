@@ -35,6 +35,7 @@ export default class Contact extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
+    document.getElementById("submitButton").disabled = true;
     axios({
       method: "post",
       url: API_PATH,
@@ -47,12 +48,14 @@ export default class Contact extends Component {
       this.setState({ fatalError: result.data.fatalError });
       if (result.data.sent) {
         this.resetForm();
-      }
+      };
+      document.getElementById("submitButton").disabled = false;
     })
     .catch((error) => {
       this.setState({ mailSent: false });
       this.setState({ error: error.message });
       this.setState({ Fatalerror: true });
+      document.getElementById("submitButton").disabled = false;
     });
   }
 
@@ -184,6 +187,7 @@ export default class Contact extends Component {
                       <div className="form-group">
                         <input
                           type="submit"
+                          id="submitButton"
                           className="btn btn-primary btn-send-message"
                           value="Send Message"
                           onClick={(e) => this.handleSubmit(e)}
