@@ -1716,7 +1716,7 @@ span {
 
 .btn:disabled {
   background-color: #cccccc;
-  color: #cccccc;
+  border: 2px solid #cccccc;
 }
 
 .form-control {
