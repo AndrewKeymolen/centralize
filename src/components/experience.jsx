@@ -129,7 +129,7 @@ export default class Experience extends Component {
                             the onboarding. The development was successfull despite the COVID-19 crisis, and we deployed the project to production in September of the same year.
                             <br />
                             <br />
-                            I was offered to certify as a SCRUM Master by PTC in May 2020, which I did. Strong of that new certification, and that latest project being over, I seized an opportunity and took on the role and responsibilities of SCRUM Master among 2 teams at the bank, one focusing on customer relationships (4 developers), and the other one focusing on customer data and products (± 15 developers). My objective was to successfully transition both teams to the SCRUM Methodology, and train them to the handling of their respective backlog on Microsot DevOps Server, which I would supervise and curate. The transition, including the transfer of the existing Lotus Notes backlogs to the newly created DevOps backlogs, was finished by November and I've been successfully colaborating with both teams since, helping them applying the SCRUM Methodology to the repartition, planification, and delivery of their respectives tasks and projects.
+                            I was offered to certify as a SCRUM Master by PTC in May 2020, which I did. Strong of that new certification, and that latest project being over, I seized an opportunity and took on the role and responsibilities of SCRUM Master among 2 teams at the bank, one focusing on customer relationships (4 developers), and the other one focusing on customer data and products (± 15 developers). My objective was to successfully transition both teams to the SCRUM Methodology, and train them to the handling of their respective backlog on Microsot DevOps Server, which I would supervise and curate. The transition, including the transfer of the existing Lotus Notes backlogs to the newly created DevOps backlogs, was finished by November and I've been successfully colaborating with both teams since, helping them applying the SCRUM Methodology to the repartition, planification, and delivery of their respective tasks and projects.
                           </span><a onClick={this.showmore.bind(this)} id="myBtn">
                           {" "}
                           Read more
@@ -148,7 +148,7 @@ export default class Experience extends Component {
                             <br />✔ Focus on maintainability, improvability
                               and testing
                               <br />✔ Use of expertise to recommend functional
-                                and technical enhancements <br />✔ Retail
+                                and technical enhancements <br />✔ Retail banking
                                 (e-banking, mobile banking, bank accounts,
                                   credit/debit cards, everyday money transfers)
                                     <br />✔ DB2 database and use of SQL DB2 for data

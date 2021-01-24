@@ -25,7 +25,7 @@ export default class Services extends Component {
                 <div className="desc">
                   <h3>SCRUM Master</h3>
                   <p>
-                    Certified SCRUM Master and experienced in management, I'm eager to take on the supervision of new
+                    Certified SCRUM Master and experienced in management, I'm eager to take on the supervision <br/> of new
                     exciting projects.
                   </p>
                 </div>

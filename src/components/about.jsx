@@ -57,7 +57,7 @@ export default class About extends Component {
                         indeed, working at Adneom meant exactly that. Thanks to
                         them, I started working with Spuerkeess as an IT
                         consultant, participating in everything from simple
-                        maintenance to high stake projects at a national scale, which I would even help manage.
+                        maintenance to high stake projects at a national scale, which I even helped manage.
                       </p>
                       <p>
                         Those past years were rich in learning as I wrote tens of
@@ -68,11 +68,11 @@ export default class About extends Component {
                         development and in image and video editing. I was also offered to oversee some projects in our dev team, which
                         eventually shifted my career goals: I began wanting to make
                         good use of my technical skills and knowledge and start
-                        fully managing projects. In order to do so, I certified as a
+                        managing projects. In order to do so, I certified as a
                         SCRUM Master and successfully transitioned to being a fully fledged SCRUM Master at Spuekeess.
                       </p>
                       <p>
-                        I am now preparing for the next step in collaboration with The Positive Thinking Company. I have more certifications in Project Management on their way, some workshops to give, and more importantly, more pojects to manage.
+                        I am now preparing for the next step in collaboration with The Positive Thinking Company. I have more certifications in Project Management on their way, some workshops in preparation, and more importantly, more projects to manage.
                       </p>
                       <p>
                         So what do you say, do you want to be part of that next
@@ -95,7 +95,7 @@ export default class About extends Component {
                     <span className="icon2">
                       <i className="icon-bulb"></i>
                     </span>
-                    <h3>Project Management</h3>
+                    <h3>Project Manager</h3>
                   </div>
                 </div>
                 <div className="row">
