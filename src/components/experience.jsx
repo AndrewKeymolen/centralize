@@ -14,7 +14,7 @@ export default class Experience extends Component {
       dots.style.display = "none";
       btnText.innerHTML = " Read less";
       moreText.style.display = "inline";
-    } 
+    }
   }
 
   showmore2() {
@@ -66,7 +66,7 @@ export default class Experience extends Component {
 
                       <div className="timeline-label">
                         <h2>
-                          Analyst Developer at{" "}
+                          Analyst Developer, then SCRUM Master at{" "}
                           <a
                             href="https://www.bcee.lu/en/private-customers/"
                             style={{ color: "#2c98f0" }}
@@ -121,16 +121,15 @@ export default class Experience extends Component {
                             new customer acquisition method.
                             <br />
                             <br />
-                            Since February 2020, I’ve been working on an even
+                            In February 2020, I started working on an even
                             higher stake project: allowing potential customers
                             to start their onboarding from the bank’s mobile app
-                            as well as to be able to create basic products like
-                            bank accounts and debit and credit cards following
-                            the onboarding. The ongoing development is going
-                            well despite the COVID-19 crisis, and we’re aiming
-                            to deploy the project to production in September
-                            2020.
-
+                            as well as to be able to order products like
+                            bank accounts and debit and credit cards directly following
+                            the onboarding. The development was successfull despite the COVID-19 crisis, and we deployed the project to production in September of the same year.
+                            <br />
+                            <br />
+                            I was offered to certify as a SCRUM Master by PTC in May 2020, which I did. Strong of that new certification, and that latest project being over, I seized an opportunity and took on the role and responsibilities of SCRUM Master among 2 teams at the bank, one focusing on customer relationships (4 developers), and the other one focusing on customer data and products (± 15 developers). My objective was to successfully transition both teams to the SCRUM Methodology, and train them to the handling of their respective backlog on Microsot DevOps Server, which I would supervise and curate. The transition, including the transfer of the existing Lotus Notes backlogs to the newly created DevOps backlogs, was finished by November and I've been successfully colaborating with both teams since, helping them applying the SCRUM Methodology to the repartition, planification, and delivery of their respectives tasks and projects.
                           </span><a onClick={this.showmore.bind(this)} id="myBtn">
                           {" "}
                           Read more
@@ -144,21 +143,24 @@ export default class Experience extends Component {
                           technical and functional documentation in French,
                           incident management, production follow-up,
                           development of new features on existing software
-                          and development of new software and projects{" "}
+                          and development of new software and projects
                           <br />✔ Use of the MVC design pattern
                             <br />✔ Focus on maintainability, improvability
                               and testing
                               <br />✔ Use of expertise to recommend functional
                                 and technical enhancements <br />✔ Retail
                                 (e-banking, mobile banking, bank accounts,
-                                  credit/debit cards, everyday money transfers){" "}
-                                  <br />✔ Experience as SCRUM master
+                                  credit/debit cards, everyday money transfers)
                                     <br />✔ DB2 database and use of SQL DB2 for data
                                       querying
+                                      <br />✔ Use of many tools (logs management,
+                                          deployment management, etc.) internal to the bank
+                                      <br />✔ Undertaking of the role of SCRUM master
+
+                                    <br />✔ Transitioning teams of developers to the SCRUM Methodology
                                       <br />✔ Azure DevOps for code management and
                                         implementation of the SCRUM methodology
-                                        <br />✔ Use of many tools (logs management,
-                                            deployment management, etc.) internal to the bank
+
                                             <br />
                                           </b>
 

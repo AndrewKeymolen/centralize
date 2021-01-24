@@ -15,7 +15,21 @@ export default class Services extends Component {
                 <h2 className="colorlib-heading">
                   Here are some of my expertise
                 </h2>
-              </div> 
+              </div>
+            </div>
+            <div className="col-md-4 text-center animate-box">
+              <div className="services color-2">
+                <span className="icon">
+                  <i className="icon-bulb"></i>
+                </span>
+                <div className="desc">
+                  <h3>SCRUM Master</h3>
+                  <p>
+                    Certified SCRUM Master and experienced in management, I'm eager to take on the supervision of new
+                    exciting projects.
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="row row-pt-md">
               <div className="col-md-4 text-center animate-box">
@@ -29,21 +43,6 @@ export default class Services extends Component {
                       Analysing existing projects, developing new features,
                       debugging, testing, production follow-up, incidents
                       handling, etc. Thats what I do!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                  <span className="icon">
-                    <i className="icon-bulb"></i>
-                  </span>
-                  <div className="desc">
-                    <h3>SCRUM Master</h3>
-                    <p>
-                      I've managed small projects in the past. Now a certified
-                      SCRUM Master, I'm eager to take on the management of new
-                      exciting ones.
                     </p>
                   </div>
                 </div>
@@ -71,8 +70,8 @@ export default class Services extends Component {
                   <div className="desc">
                     <h3>Coaching</h3>
                     <p>
-                      Taking part in different communities at my company, I've
-                      organized workshops, taught Android dev and was asked to
+                      Taking part in different communities at work, I've
+                      organized workshops the SCRUM Methodology, taught Android dev and was asked to
                       validate skills.
                     </p>
                   </div>

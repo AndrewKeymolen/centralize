@@ -21,14 +21,14 @@ export default class Sidebar extends Component {
           className="border js-fullheight"
           >
           <div className="text-center">
-            <div 
+            <div
               className="author-img"
               style={{ backgroundImage: "url(images/about.png)" }}
               ></div>
             <h1 id="colorlib-logo">
               <a href="index.html">Andrew Keymolen</a>
             </h1>
-            <span className="position">SCRUM Master/Full Stack Dev</span>
+            <span className="position">SCRUM Master/Project Manager/Full Stack Dev</span>
           </div>
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
             <div id="navbar" className="collapse">

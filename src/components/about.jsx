@@ -48,7 +48,7 @@ export default class About extends Component {
                         from scratch that would eventually receive an award for
                         its quality. Strong of that experience, and with my
                         degree in Business Computing in hands, I joined Adneom
-                        Luxembourg.
+                        Luxembourg, now rebranded The Positive Thinking Company.
                       </p>
                       <p>
                         Working in Luxembourg was a shy first step in terms of
@@ -57,21 +57,22 @@ export default class About extends Component {
                         indeed, working at Adneom meant exactly that. Thanks to
                         them, I started working with Spuerkeess as an IT
                         consultant, participating in everything from simple
-                        maintenance to high stake projects at a national scale.
+                        maintenance to high stake projects at a national scale, which I would even help manage.
                       </p>
                       <p>
-                        Those past years were rich in learning as I wrote
+                        Those past years were rich in learning as I wrote tens of
                         thousands of lines of codes. I developed and published a
                         first personal Android app before certifying as an
                         Associate Android Developer and happily teaching it to
                         whoever was interested. I gained strong knowledge in web
-                        development and in image and video editing. I also had
-                        my first experiences in project management which would
-                        eventually shift my career goals: now, I want to make
+                        development and in image and video editing. I was also offered to oversee some projects in our dev team, which
+                        eventually shifted my career goals: I began wanting to make
                         good use of my technical skills and knowledge and start
-                        managing projects. In order to do so, I certified as a
-                        SCRUM Master and am now preparing for the next step in
-                        collaboration with The Positive Thinking Company.
+                        fully managing projects. In order to do so, I certified as a
+                        SCRUM Master and successfully transitioned to being a fully fledged SCRUM Master at Spuekeess.
+                      </p>
+                      <p>
+                        I am now preparing for the next step in collaboration with The Positive Thinking Company. I have more certifications in Project Management on their way, some workshops to give, and more importantly, more pojects to manage.
                       </p>
                       <p>
                         So what do you say, do you want to be part of that next
@@ -84,6 +85,17 @@ export default class About extends Component {
                         !
                       </p>
                     </div>
+                  </div>
+                </div>
+                <div
+                  className="col-md-3 animate-box"
+                  data-animate-effect="fadeInTop"
+                  >
+                  <div className="services color-3">
+                    <span className="icon2">
+                      <i className="icon-bulb"></i>
+                    </span>
+                    <h3>Project Management</h3>
                   </div>
                 </div>
                 <div className="row">
@@ -100,13 +112,13 @@ export default class About extends Component {
                   </div>
                   <div
                     className="col-md-3 animate-box"
-                    data-animate-effect="fadeInTop"
+                    data-animate-effect="fadeInBottom"
                     >
-                    <div className="services color-3">
+                    <div className="services color-4">
                       <span className="icon2">
-                        <i className="icon-bulb"></i>
+                        <i className="icon-globe-outline"></i>
                       </span>
-                      <h3>Project Management</h3>
+                      <h3>Web & Multimedia</h3>
                     </div>
                   </div>
                   <div
@@ -120,17 +132,7 @@ export default class About extends Component {
                       <h3>Android Dev</h3>
                     </div>
                   </div>
-                  <div
-                    className="col-md-3 animate-box"
-                    data-animate-effect="fadeInBottom"
-                    >
-                    <div className="services color-4">
-                      <span className="icon2">
-                        <i className="icon-globe-outline"></i>
-                      </span>
-                      <h3>Web & Multimedia</h3>
-                    </div>
-                  </div>
+
                 </div>
                 {/*}                <div className="row">
                 <div

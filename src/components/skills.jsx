@@ -16,7 +16,7 @@ export default class Skills extends Component {
               </div>
             </div>
             <div className="row">
-              <div 
+              <div
                 className="col-md-12 animate-box"
                 data-animate-effect="fadeInLeft"
                 >
@@ -341,12 +341,12 @@ export default class Skills extends Component {
                       <div
                         className="progress-bar color-2"
                         role="progressbar"
-                        aria-valuenow="85"
+                        aria-valuenow="95"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style={{ width: "85%" }}
+                        style={{ width: "95%" }}
                         >
-                        <span>85% - Professional & personal</span>
+                        <span>95% - Professional & personal</span>
                       </div>
                     </div>
                   </div>

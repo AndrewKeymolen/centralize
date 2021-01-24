@@ -3,7 +3,7 @@ import resume from "./../resources/Resume/Resume_Andrew_KEYMOLEN.pdf";
 
 export default class Home extends Component {
   render() {
-    return ( 
+    return (
       <div>
         <section
           id="colorlib-hero"
@@ -24,8 +24,7 @@ export default class Home extends Component {
                           I'm Andrew!
                         </h1>
                         <h2 style={{color:"white"}}>
-                          I'm originally a Full Stack Analyst Developer, but
-                          I'm on my way to become a Project Manager.
+                          Originally a Full Stack Analyst Developer, now a Project Manager.
                         </h2>
                         <p>
                           <a
