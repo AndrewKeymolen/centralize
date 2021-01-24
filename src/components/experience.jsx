@@ -33,6 +33,22 @@ export default class Experience extends Component {
     }
   }
 
+  showmore3() {
+    var dots = document.getElementById("dots3");
+    var moreText = document.getElementById("more3");
+    var btnText = document.getElementById("myBtn3");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = " Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = " Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
   render() {
     return (
       <div>
@@ -60,25 +76,101 @@ export default class Experience extends Component {
                     data-animate-effect="fadeInLeft"
                     >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2"></i>
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+
+SCRUM Master at{" "}
+                          <a
+                            href="https://www.spuerkeess.lu/en/private-customers/"
+                            style={{ color: "#2c98f0" }}
+                            >
+                            Spuerkeess
+                          </a>
+                          , Luxembourg <span>2020 - Ongoing</span>
+                      </h2>
+                      <p>
+                        Shortly after certifying as one, I took on the role and responsibilities of SCRUM Master among 2 teams at Spuerkeess, one focusing on customer relationships (4 developers), and<span id="dots3">...</span>
+                      <span id="more3">
+                        {" "}  the other one focusing on customer data and products (± 15 developers).
+                        <br />
+                        <br />
+My objective was to successfully transition both teams to the SCRUM Methodology, and train them to the handling of their respective backlog on Microsoft DevOps Server, which I would supervise and curate. The transition, including the transfer of the existing Lotus Notes backlogs to the newly created DevOps backlogs, was finished by November and I've been successfully collaborating with both teams since, helping them in applying the SCRUM Methodology to the repartition, planification, and delivery of their respective tasks and projects.
+<br />
+<br />
+</span><a onClick={this.showmore3.bind(this)} id="myBtn3">
+                  {" "}
+                  Read more
+                </a>
+                <br />
+                <br />
+                <b>
+                  ✔ All the responsibilities from my previous role at Spuerkeess
+                  <br />✔ Project Management and transitioning of teams of developers to the SCRUM Methodology
+<br />✔ Azure DevOps for code management and implementation of the SCRUM methodology
+
+
+
+                                    <br />
+                                  </b>
+
+                                </p>
+                              </div>
+                            </div>
+
+                </article>
+                <article
+                  className="timeline-entry animate-box"
+                  data-animate-effect="fadeInLeft"
+                  >
+                  <div className="timeline-entry-inner">
+                    <div className="timeline-icon color-5">
+                      <i className="icon-pen2"></i>
+                    </div>
+                    <div className="timeline-label">
+                      <h2>
+
+Project Management Consultant at{" "}
+                        <a
+                          href="https://positivethinking.tech/"
+                          style={{ color: "#2c98f0" }}
+                          >
+                          Positive Thinking Company
+                        </a>
+                        , Luxembourg <span>2020 - Ongoing</span>
+                    </h2>
+                    <p>
+                      I was offered to certify as a SCRUM Master by PTC in May 2020, which I did. Strong of that new certification, and the latest projects I had been working on being finished, I seized an opportunity with the support of PTC in October 2020 and took on the role and responsibilities of SCRUM Master among 2 teams at Spuerkeess, one focusing on customer relationships (4 developers), and the other one focusing on customer data and products (± 15 developers).
+                    </p>
+                  </div>
+                </div>
+              </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                    >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2"></i>
                       </div>
 
                       <div className="timeline-label">
                         <h2>
-                          Analyst Developer, then SCRUM Master at{" "}
+                          Analyst Developer at{" "}
                           <a
-                            href="https://www.bcee.lu/en/private-customers/"
+                            href="https://www.spuerkeess.lu/en/private-customers/"
                             style={{ color: "#2c98f0" }}
                             >
                             Spuerkeess
                           </a>
-                          , Luxembourg <span>2017 - Ongoing</span>
+                          , Luxembourg <span>2017 - 2020</span>
                       </h2>
                       <p>
                         I was hired by Spuerkeess, a private and public bank,
                         as an IT consultant to join the ± 24-person team in
-                        charge of the various retail-relatedsoftware. I
+                        charge of the various retail-related software. I
                         started working on Siroco, the software used for<span id="dots">...</span>
                       <span id="more">
                         {" "}  the
@@ -129,8 +221,7 @@ export default class Experience extends Component {
                             the onboarding. The development was successfull despite the COVID-19 crisis, and we deployed the project to production in September of the same year.
                             <br />
                             <br />
-                            I was offered to certify as a SCRUM Master by PTC in May 2020, which I did. Strong of that new certification, and that latest project being over, I seized an opportunity and took on the role and responsibilities of SCRUM Master among 2 teams at the bank, one focusing on customer relationships (4 developers), and the other one focusing on customer data and products (± 15 developers). My objective was to successfully transition both teams to the SCRUM Methodology, and train them to the handling of their respective backlog on Microsot DevOps Server, which I would supervise and curate. The transition, including the transfer of the existing Lotus Notes backlogs to the newly created DevOps backlogs, was finished by November and I've been successfully colaborating with both teams since, helping them applying the SCRUM Methodology to the repartition, planification, and delivery of their respective tasks and projects.
-                          </span><a onClick={this.showmore.bind(this)} id="myBtn">
+                            </span><a onClick={this.showmore.bind(this)} id="myBtn">
                           {" "}
                           Read more
                         </a>
@@ -155,11 +246,7 @@ export default class Experience extends Component {
                                       querying
                                       <br />✔ Use of many tools (logs management,
                                           deployment management, etc.) internal to the bank
-                                      <br />✔ Undertaking of the role of SCRUM master
 
-                                    <br />✔ Transitioning teams of developers to the SCRUM Methodology
-                                      <br />✔ Azure DevOps for code management and
-                                        implementation of the SCRUM methodology
 
                                             <br />
                                           </b>
@@ -191,12 +278,12 @@ export default class Experience extends Component {
                                       <p>
                                         Working in Luxembourg was a shy first step in terms of
                                         an international career for a Belgian but thanks to
-                                        ADNEOM, a consulting company, I acquired many useful
+                                        ADNEOM, a consulting company now rebranded The Positive Thinking Company., I acquired many useful
                                         skills and I started working with Spuerkeess as an
-                                        Analyst Developer, participating in everything from
+                                        Analyst Developer then a Project Manager, participating in everything from
                                         simple maintenance to high stake projects at a
                                         national scale. <br /> I am now preparing for the next
-                                        step thanks to them and in collaboration with The
+                                        step in collaboration with The
                                         Positive Thinking Company.
                                       </p>
                                     </div>

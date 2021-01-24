@@ -69,7 +69,7 @@ export default class About extends Component {
                         eventually shifted my career goals: I began wanting to make
                         good use of my technical skills and knowledge and start
                         managing projects. In order to do so, I certified as a
-                        SCRUM Master and successfully transitioned to being a fully fledged SCRUM Master at Spuekeess.
+                        SCRUM Master and successfully transitioned to being a fully fledged SCRUM Master at Spuerkeess.
                       </p>
                       <p>
                         I am now preparing for the next step in collaboration with The Positive Thinking Company. I have more certifications in Project Management on their way, some workshops in preparation, and more importantly, more projects to manage.
@@ -87,6 +87,7 @@ export default class About extends Component {
                     </div>
                   </div>
                 </div>
+                                <div className="row">
                 <div
                   className="col-md-3 animate-box"
                   data-animate-effect="fadeInTop"
@@ -95,10 +96,10 @@ export default class About extends Component {
                     <span className="icon2">
                       <i className="icon-bulb"></i>
                     </span>
-                    <h3>Project Manager</h3>
+                    <h3>Project Management</h3>
                   </div>
                 </div>
-                <div className="row">
+
                   <div
                     className="col-md-3 animate-box"
                     data-animate-effect="fadeInLeft"

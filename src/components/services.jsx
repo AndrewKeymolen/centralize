@@ -17,6 +17,7 @@ export default class Services extends Component {
                 </h2>
               </div>
             </div>
+                        <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
               <div className="services color-2">
                 <span className="icon">
@@ -25,13 +26,12 @@ export default class Services extends Component {
                 <div className="desc">
                   <h3>SCRUM Master</h3>
                   <p>
-                    Certified SCRUM Master and experienced in management, I'm eager to take on the supervision <br/> of new
-                    exciting projects.
+                    Certified SCRUM Master and experienced in management, I'm eager to take on the supervision of exciting new projects.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="row row-pt-md">
+
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                   <span className="icon">
@@ -42,7 +42,7 @@ export default class Services extends Component {
                     <p>
                       Analysing existing projects, developing new features,
                       debugging, testing, production follow-up, incidents
-                      handling, etc. Thats what I do!
+                      handling, etc. That's what I do!
                     </p>
                   </div>
                 </div>
