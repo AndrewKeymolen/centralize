@@ -10,27 +10,28 @@ export default class Services extends Component {
               <div
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
-                >
+              >
                 {/*<span className="heading-meta">What I do?</span>*/}
                 <h2 className="colorlib-heading">
                   Here are some of my expertise
                 </h2>
               </div>
             </div>
-                        <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-2">
-                <span className="icon">
-                  <i className="icon-bulb"></i>
-                </span>
-                <div className="desc">
-                  <h3>SCRUM Master</h3>
-                  <p>
-                    Certified SCRUM Master and experienced in management, I'm eager to take on the supervision of exciting new projects.
-                  </p>
+            <div className="row row-pt-md">
+              <div className="col-md-4 text-center animate-box">
+                <div className="services color-2">
+                  <span className="icon">
+                    <i className="icon-bulb"></i>
+                  </span>
+                  <div className="desc">
+                    <h3>SCRUM Master</h3>
+                    <p>
+                      Certified SCRUM Master and experienced in management, I'm
+                      eager to take on the supervision of exciting new projects.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
 
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
@@ -71,8 +72,8 @@ export default class Services extends Component {
                     <h3>Coaching</h3>
                     <p>
                       Taking part in different communities at work, I've
-                      organized workshops the SCRUM Methodology, taught Android dev and was asked to
-                      validate skills.
+                      organized workshops the SCRUM Methodology, taught Android
+                      dev and was asked to validate skills.
                     </p>
                   </div>
                 </div>
